@@ -1,0 +1,14 @@
+[
+{
+  "directory": "D:/Learings/Effective_Modern_C++/build/base2_rval_quote",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -std=c++17 -fno-elide-constructors -o CMakeFiles\\base2.dir\\base2.cpp.obj -c D:\\Learings\\Effective_Modern_C++\\base2_rval_quote\\base2.cpp",
+  "file": "D:/Learings/Effective_Modern_C++/base2_rval_quote/base2.cpp",
+  "output": "base2_rval_quote/CMakeFiles/base2.dir/base2.cpp.obj"
+},
+{
+  "directory": "D:/Learings/Effective_Modern_C++/build/clause7_initial",
+  "command": "C:\\mingw64\\bin\\g++.exe   -fno-elide-constructors -g -std=gnu++17 -fno-elide-constructors -o CMakeFiles\\item7.dir\\item7.cpp.obj -c D:\\Learings\\Effective_Modern_C++\\clause7_initial\\item7.cpp",
+  "file": "D:/Learings/Effective_Modern_C++/clause7_initial/item7.cpp",
+  "output": "clause7_initial/CMakeFiles/item7.dir/item7.cpp.obj"
+}
+]

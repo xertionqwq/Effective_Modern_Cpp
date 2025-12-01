@@ -1,0 +1,8 @@
+D:/Learings/Effective_Modern_C++/build/CMakeFiles/edit_cache.dir
+D:/Learings/Effective_Modern_C++/build/CMakeFiles/rebuild_cache.dir
+D:/Learings/Effective_Modern_C++/build/base2_rval_quote/CMakeFiles/base2.dir
+D:/Learings/Effective_Modern_C++/build/base2_rval_quote/CMakeFiles/edit_cache.dir
+D:/Learings/Effective_Modern_C++/build/base2_rval_quote/CMakeFiles/rebuild_cache.dir
+D:/Learings/Effective_Modern_C++/build/clause7_initial/CMakeFiles/item7.dir
+D:/Learings/Effective_Modern_C++/build/clause7_initial/CMakeFiles/edit_cache.dir
+D:/Learings/Effective_Modern_C++/build/clause7_initial/CMakeFiles/rebuild_cache.dir

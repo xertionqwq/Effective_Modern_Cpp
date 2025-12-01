@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/Learings/Effective_Modern_C++/build/cmake_install.cmake",
+		"D:/Learings/Effective_Modern_C++/build/base2_rval_quote/cmake_install.cmake",
+		"D:/Learings/Effective_Modern_C++/build/clause7_initial/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
