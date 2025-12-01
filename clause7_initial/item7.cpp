@@ -56,9 +56,10 @@ int main(){
 
     // A f = 10, 5;
     // A g(10, 5);
-    // A i{10, 5};
-    // A j = {10, 5};
-    fun1(A{10, 5});
+    A i{10, 5};
+    A j = {10, 5};
+    // fun1(A{10, 5});
+    // A rr = fun2();
 
     std::cout << "return done" << std::endl;
     return 0;
