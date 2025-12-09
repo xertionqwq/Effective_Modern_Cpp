@@ -1,0 +1,1 @@
+/usr/bin/g++ -fno-elide-constructors -g -Wl,--dependency-file=CMakeFiles/item23.dir/link.d CMakeFiles/item23.dir/item23.cpp.o -o item23

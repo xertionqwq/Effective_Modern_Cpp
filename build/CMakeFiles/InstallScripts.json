@@ -1,9 +1,18 @@
 {
 	"InstallScripts" : 
 	[
-		"D:/Learings/Effective_Modern_C++/build/cmake_install.cmake",
-		"D:/Learings/Effective_Modern_C++/build/base2_rval_quote/cmake_install.cmake",
-		"D:/Learings/Effective_Modern_C++/build/clause7_initial/cmake_install.cmake"
+		"/home/xertion/Code/Effective-Modern-C-/build/cmake_install.cmake",
+		"/home/xertion/Code/Effective-Modern-C-/build/Base1_const/cmake_install.cmake",
+		"/home/xertion/Code/Effective-Modern-C-/build/base2_rval_quote/cmake_install.cmake",
+		"/home/xertion/Code/Effective-Modern-C-/build/base3_arr_fun_ptr/cmake_install.cmake",
+		"/home/xertion/Code/Effective-Modern-C-/build/base4_class_layout/cmake_install.cmake",
+		"/home/xertion/Code/Effective-Modern-C-/build/base5_RTTI/cmake_install.cmake",
+		"/home/xertion/Code/Effective-Modern-C-/build/clause1_template_derivation/cmake_install.cmake",
+		"/home/xertion/Code/Effective-Modern-C-/build/clause2_auto_derivation/cmake_install.cmake",
+		"/home/xertion/Code/Effective-Modern-C-/build/clause3_decltype/cmake_install.cmake",
+		"/home/xertion/Code/Effective-Modern-C-/build/clause7_initial/cmake_install.cmake",
+		"/home/xertion/Code/Effective-Modern-C-/build/clause9_using_typedef/cmake_install.cmake",
+		"/home/xertion/Code/Effective-Modern-C-/build/clause23_move_forward/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

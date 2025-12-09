@@ -8,7 +8,7 @@ public:
     static const int poolSize = 40960;
 
     BigDate() : pool(new char[poolSize]) {
-        //cout << "constract" << endl;
+        cout << "constract" << endl;
     }
     ~BigDate() {
         if (pool != nullptr) {
@@ -27,7 +27,8 @@ public:
     BigDate(const BigDate &other) {
         cout << "copy" << endl;
         this->pool = new char[poolSize];
-        memcpy(pool, other.pool, poolSize);
+        // memcpy(pool, other.pool, poolSize);
+        this->pool = other.pool;
     }
 
 private:
@@ -77,8 +78,8 @@ int main() {
 
     BigDate bbb = getPool();
     // BigDate aaa = std::move(bbb);//类中不实现移动，则此处为拷贝
-    BigDate ddd = std::move(bbb);
-    BigDate &&eee = std::move(ddd);
+    // BigDate ddd = std::move(bbb);
+    BigDate &&eee = std::move(bbb);
     //BigDate ccc = getPool(bbb);
 
     cout << "return done";
