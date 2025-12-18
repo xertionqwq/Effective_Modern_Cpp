@@ -35,7 +35,7 @@ void fun(int *const p) {
 
 //可摆放pdf中所有模板类型，观察模板推导
 template <typename T>
-void F(T&& param){
+void F(T param){
     std::cout << "F has worked " << param << std::endl;
 }
 

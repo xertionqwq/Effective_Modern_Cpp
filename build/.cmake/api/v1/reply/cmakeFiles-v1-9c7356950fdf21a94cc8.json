@@ -207,6 +207,18 @@
 			"path" : "base5_RTTI/CMakeLists.txt"
 		},
 		{
+			"path" : "base6_class_cast/CMakeLists.txt"
+		},
+		{
+			"path" : "base7_lambda_first/CMakeLists.txt"
+		},
+		{
+			"path" : "base8_usable_class/CMakeLists.txt"
+		},
+		{
+			"path" : "base9_CRPT_ExpressionTemplate/CMakeLists.txt"
+		},
+		{
 			"path" : "clause1_template_derivation/CMakeLists.txt"
 		},
 		{
@@ -217,6 +229,9 @@
 		},
 		{
 			"path" : "clause7_initial/CMakeLists.txt"
+		},
+		{
+			"path" : "clause5_auto_initial/CMakeLists.txt"
 		},
 		{
 			"path" : "clause9_using_typedef/CMakeLists.txt"

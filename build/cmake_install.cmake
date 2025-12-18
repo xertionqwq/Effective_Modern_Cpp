@@ -69,6 +69,26 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/home/xertion/Code/Effective-Modern-C-/build/base6_class_cast/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/xertion/Code/Effective-Modern-C-/build/base7_lambda_first/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/xertion/Code/Effective-Modern-C-/build/base8_usable_class/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/xertion/Code/Effective-Modern-C-/build/base9_CRPT_ExpressionTemplate/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/home/xertion/Code/Effective-Modern-C-/build/clause1_template_derivation/cmake_install.cmake")
 endif()
 
@@ -85,6 +105,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("/home/xertion/Code/Effective-Modern-C-/build/clause7_initial/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/xertion/Code/Effective-Modern-C-/build/clause5_auto_initial/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

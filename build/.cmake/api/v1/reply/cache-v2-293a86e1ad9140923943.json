@@ -827,7 +827,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "12"
+			"value" : "17"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1410,6 +1410,150 @@
 			"value" : "/home/xertion/Code/Effective-Modern-C-/base5_RTTI"
 		},
 		{
+			"name" : "base6_class_cast_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/xertion/Code/Effective-Modern-C-/build/base6_class_cast"
+		},
+		{
+			"name" : "base6_class_cast_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "base6_class_cast_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/xertion/Code/Effective-Modern-C-/base6_class_cast"
+		},
+		{
+			"name" : "base7_lambda_first_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/xertion/Code/Effective-Modern-C-/build/base7_lambda_first"
+		},
+		{
+			"name" : "base7_lambda_first_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "base7_lambda_first_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/xertion/Code/Effective-Modern-C-/base7_lambda_first"
+		},
+		{
+			"name" : "base8_usable_class_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/xertion/Code/Effective-Modern-C-/build/base8_usable_class"
+		},
+		{
+			"name" : "base8_usable_class_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "base8_usable_class_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/xertion/Code/Effective-Modern-C-/base8_usable_class"
+		},
+		{
+			"name" : "base9_CRTP_ExpressionTemplate_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/xertion/Code/Effective-Modern-C-/build/base9_CRPT_ExpressionTemplate"
+		},
+		{
+			"name" : "base9_CRTP_ExpressionTemplate_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "base9_CRTP_ExpressionTemplate_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/xertion/Code/Effective-Modern-C-/base9_CRPT_ExpressionTemplate"
+		},
+		{
 			"name" : "clasuse23_move_forward_BINARY_DIR",
 			"properties" : 
 			[
@@ -1552,6 +1696,78 @@
 			],
 			"type" : "STATIC",
 			"value" : "/home/xertion/Code/Effective-Modern-C-/clause3_decltype"
+		},
+		{
+			"name" : "clause5_auto_initial_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/xertion/Code/Effective-Modern-C-/build/clause5_auto_initial"
+		},
+		{
+			"name" : "clause5_auto_initial_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "clause5_auto_initial_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/xertion/Code/Effective-Modern-C-/clause5_auto_initial"
+		},
+		{
+			"name" : "clause7_auto_initial_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/xertion/Code/Effective-Modern-C-/build/clause7_auto_initial"
+		},
+		{
+			"name" : "clause7_auto_initial_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "clause7_auto_initial_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/xertion/Code/Effective-Modern-C-/clause7_auto_initial"
 		},
 		{
 			"name" : "clause7_initial_BINARY_DIR",

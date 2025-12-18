@@ -1,4 +1,5 @@
 #include<iostream>
+#include<vector>
 #include<string>
 
 template<typename T>
@@ -26,6 +27,14 @@ void f2(std::initializer_list<T> param){
 // auto createInitList(){
 //     return {1, 2, 3};
 // }
+
+auto return10() {
+    return 10;
+}
+
+auto Vec() {
+    return std::vector<int>(10, 1);
+}
 
 int main() {
     int a{91};

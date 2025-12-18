@@ -275,6 +275,42 @@ base5_RTTI_IS_TOP_LEVEL:STATIC=OFF
 base5_RTTI_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/base5_RTTI
 
 //Value Computed by CMake
+base6_class_cast_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/base6_class_cast
+
+//Value Computed by CMake
+base6_class_cast_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+base6_class_cast_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/base6_class_cast
+
+//Value Computed by CMake
+base7_lambda_first_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/base7_lambda_first
+
+//Value Computed by CMake
+base7_lambda_first_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+base7_lambda_first_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/base7_lambda_first
+
+//Value Computed by CMake
+base8_usable_class_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/base8_usable_class
+
+//Value Computed by CMake
+base8_usable_class_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+base8_usable_class_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/base8_usable_class
+
+//Value Computed by CMake
+base9_CRTP_ExpressionTemplate_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/base9_CRPT_ExpressionTemplate
+
+//Value Computed by CMake
+base9_CRTP_ExpressionTemplate_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+base9_CRTP_ExpressionTemplate_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/base9_CRPT_ExpressionTemplate
+
+//Value Computed by CMake
 clasuse23_move_forward_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/clause23_move_forward
 
 //Value Computed by CMake
@@ -309,6 +345,24 @@ clause3_decltype_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 clause3_decltype_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/clause3_decltype
+
+//Value Computed by CMake
+clause5_auto_initial_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/clause5_auto_initial
+
+//Value Computed by CMake
+clause5_auto_initial_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+clause5_auto_initial_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/clause5_auto_initial
+
+//Value Computed by CMake
+clause7_auto_initial_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/clause7_auto_initial
+
+//Value Computed by CMake
+clause7_auto_initial_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+clause7_auto_initial_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/clause7_auto_initial
 
 //Value Computed by CMake
 clause7_initial_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/clause7_initial
@@ -435,7 +489,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=17
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

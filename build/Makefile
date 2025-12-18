@@ -182,6 +182,58 @@ base5/fast:
 .PHONY : base5/fast
 
 #=============================================================================
+# Target rules for targets named base6
+
+# Build rule for target.
+base6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 base6
+.PHONY : base6
+
+# fast build rule for target.
+base6/fast:
+	$(MAKE) $(MAKESILENT) -f base6_class_cast/CMakeFiles/base6.dir/build.make base6_class_cast/CMakeFiles/base6.dir/build
+.PHONY : base6/fast
+
+#=============================================================================
+# Target rules for targets named base7
+
+# Build rule for target.
+base7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 base7
+.PHONY : base7
+
+# fast build rule for target.
+base7/fast:
+	$(MAKE) $(MAKESILENT) -f base7_lambda_first/CMakeFiles/base7.dir/build.make base7_lambda_first/CMakeFiles/base7.dir/build
+.PHONY : base7/fast
+
+#=============================================================================
+# Target rules for targets named base8
+
+# Build rule for target.
+base8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 base8
+.PHONY : base8
+
+# fast build rule for target.
+base8/fast:
+	$(MAKE) $(MAKESILENT) -f base8_usable_class/CMakeFiles/base8.dir/build.make base8_usable_class/CMakeFiles/base8.dir/build
+.PHONY : base8/fast
+
+#=============================================================================
+# Target rules for targets named base9
+
+# Build rule for target.
+base9: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 base9
+.PHONY : base9
+
+# fast build rule for target.
+base9/fast:
+	$(MAKE) $(MAKESILENT) -f base9_CRPT_ExpressionTemplate/CMakeFiles/base9.dir/build.make base9_CRPT_ExpressionTemplate/CMakeFiles/base9.dir/build
+.PHONY : base9/fast
+
+#=============================================================================
 # Target rules for targets named item1
 
 # Build rule for target.
@@ -234,6 +286,19 @@ item7/fast:
 .PHONY : item7/fast
 
 #=============================================================================
+# Target rules for targets named item5
+
+# Build rule for target.
+item5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item5
+.PHONY : item5
+
+# fast build rule for target.
+item5/fast:
+	$(MAKE) $(MAKESILENT) -f clause5_auto_initial/CMakeFiles/item5.dir/build.make clause5_auto_initial/CMakeFiles/item5.dir/build
+.PHONY : item5/fast
+
+#=============================================================================
 # Target rules for targets named item9
 
 # Build rule for target.
@@ -272,10 +337,15 @@ help:
 	@echo "... base3"
 	@echo "... base4"
 	@echo "... base5"
+	@echo "... base6"
+	@echo "... base7"
+	@echo "... base8"
+	@echo "... base9"
 	@echo "... item1"
 	@echo "... item2"
 	@echo "... item23"
 	@echo "... item3"
+	@echo "... item5"
 	@echo "... item7"
 	@echo "... item9"
 .PHONY : help
