@@ -27,6 +27,9 @@
 /home/xertion/Code/Effective-Modern-C-/build/base9_CRPT_ExpressionTemplate/CMakeFiles/base9.dir
 /home/xertion/Code/Effective-Modern-C-/build/base9_CRPT_ExpressionTemplate/CMakeFiles/edit_cache.dir
 /home/xertion/Code/Effective-Modern-C-/build/base9_CRPT_ExpressionTemplate/CMakeFiles/rebuild_cache.dir
+/home/xertion/Code/Effective-Modern-C-/build/base10_constructFun/CMakeFiles/base10.dir
+/home/xertion/Code/Effective-Modern-C-/build/base10_constructFun/CMakeFiles/edit_cache.dir
+/home/xertion/Code/Effective-Modern-C-/build/base10_constructFun/CMakeFiles/rebuild_cache.dir
 /home/xertion/Code/Effective-Modern-C-/build/clause1_template_derivation/CMakeFiles/item1.dir
 /home/xertion/Code/Effective-Modern-C-/build/clause1_template_derivation/CMakeFiles/edit_cache.dir
 /home/xertion/Code/Effective-Modern-C-/build/clause1_template_derivation/CMakeFiles/rebuild_cache.dir
@@ -42,9 +45,15 @@
 /home/xertion/Code/Effective-Modern-C-/build/clause5_auto_initial/CMakeFiles/item5.dir
 /home/xertion/Code/Effective-Modern-C-/build/clause5_auto_initial/CMakeFiles/edit_cache.dir
 /home/xertion/Code/Effective-Modern-C-/build/clause5_auto_initial/CMakeFiles/rebuild_cache.dir
+/home/xertion/Code/Effective-Modern-C-/build/clause8_nullptr_NULL/CMakeFiles/item8.dir
+/home/xertion/Code/Effective-Modern-C-/build/clause8_nullptr_NULL/CMakeFiles/edit_cache.dir
+/home/xertion/Code/Effective-Modern-C-/build/clause8_nullptr_NULL/CMakeFiles/rebuild_cache.dir
 /home/xertion/Code/Effective-Modern-C-/build/clause9_using_typedef/CMakeFiles/item9.dir
 /home/xertion/Code/Effective-Modern-C-/build/clause9_using_typedef/CMakeFiles/edit_cache.dir
 /home/xertion/Code/Effective-Modern-C-/build/clause9_using_typedef/CMakeFiles/rebuild_cache.dir
+/home/xertion/Code/Effective-Modern-C-/build/clause17_unique_member/CMakeFiles/itme17.dir
+/home/xertion/Code/Effective-Modern-C-/build/clause17_unique_member/CMakeFiles/edit_cache.dir
+/home/xertion/Code/Effective-Modern-C-/build/clause17_unique_member/CMakeFiles/rebuild_cache.dir
 /home/xertion/Code/Effective-Modern-C-/build/clause23_move_forward/CMakeFiles/item23.dir
 /home/xertion/Code/Effective-Modern-C-/build/clause23_move_forward/CMakeFiles/edit_cache.dir
 /home/xertion/Code/Effective-Modern-C-/build/clause23_move_forward/CMakeFiles/rebuild_cache.dir

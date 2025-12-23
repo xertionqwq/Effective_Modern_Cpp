@@ -234,6 +234,19 @@ base9/fast:
 .PHONY : base9/fast
 
 #=============================================================================
+# Target rules for targets named base10
+
+# Build rule for target.
+base10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 base10
+.PHONY : base10
+
+# fast build rule for target.
+base10/fast:
+	$(MAKE) $(MAKESILENT) -f base10_constructFun/CMakeFiles/base10.dir/build.make base10_constructFun/CMakeFiles/base10.dir/build
+.PHONY : base10/fast
+
+#=============================================================================
 # Target rules for targets named item1
 
 # Build rule for target.
@@ -299,6 +312,19 @@ item5/fast:
 .PHONY : item5/fast
 
 #=============================================================================
+# Target rules for targets named item8
+
+# Build rule for target.
+item8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item8
+.PHONY : item8
+
+# fast build rule for target.
+item8/fast:
+	$(MAKE) $(MAKESILENT) -f clause8_nullptr_NULL/CMakeFiles/item8.dir/build.make clause8_nullptr_NULL/CMakeFiles/item8.dir/build
+.PHONY : item8/fast
+
+#=============================================================================
 # Target rules for targets named item9
 
 # Build rule for target.
@@ -310,6 +336,19 @@ item9: cmake_check_build_system
 item9/fast:
 	$(MAKE) $(MAKESILENT) -f clause9_using_typedef/CMakeFiles/item9.dir/build.make clause9_using_typedef/CMakeFiles/item9.dir/build
 .PHONY : item9/fast
+
+#=============================================================================
+# Target rules for targets named itme17
+
+# Build rule for target.
+itme17: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 itme17
+.PHONY : itme17
+
+# fast build rule for target.
+itme17/fast:
+	$(MAKE) $(MAKESILENT) -f clause17_unique_member/CMakeFiles/itme17.dir/build.make clause17_unique_member/CMakeFiles/itme17.dir/build
+.PHONY : itme17/fast
 
 #=============================================================================
 # Target rules for targets named item23
@@ -333,6 +372,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... base1"
+	@echo "... base10"
 	@echo "... base2"
 	@echo "... base3"
 	@echo "... base4"
@@ -347,7 +387,9 @@ help:
 	@echo "... item3"
 	@echo "... item5"
 	@echo "... item7"
+	@echo "... item8"
 	@echo "... item9"
+	@echo "... itme17"
 .PHONY : help
 
 
