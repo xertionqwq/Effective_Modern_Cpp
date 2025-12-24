@@ -243,6 +243,9 @@
 			"path" : "clause9_using_typedef/CMakeLists.txt"
 		},
 		{
+			"path" : "clause15_constexpr/CMakeLists.txt"
+		},
+		{
 			"path" : "clause17_unique_member/CMakeLists.txt"
 		},
 		{

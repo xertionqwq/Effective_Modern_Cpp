@@ -51,6 +51,9 @@
 /home/xertion/Code/Effective-Modern-C-/build/clause9_using_typedef/CMakeFiles/item9.dir
 /home/xertion/Code/Effective-Modern-C-/build/clause9_using_typedef/CMakeFiles/edit_cache.dir
 /home/xertion/Code/Effective-Modern-C-/build/clause9_using_typedef/CMakeFiles/rebuild_cache.dir
+/home/xertion/Code/Effective-Modern-C-/build/clause15_constexpr/CMakeFiles/item15.dir
+/home/xertion/Code/Effective-Modern-C-/build/clause15_constexpr/CMakeFiles/edit_cache.dir
+/home/xertion/Code/Effective-Modern-C-/build/clause15_constexpr/CMakeFiles/rebuild_cache.dir
 /home/xertion/Code/Effective-Modern-C-/build/clause17_unique_member/CMakeFiles/itme17.dir
 /home/xertion/Code/Effective-Modern-C-/build/clause17_unique_member/CMakeFiles/edit_cache.dir
 /home/xertion/Code/Effective-Modern-C-/build/clause17_unique_member/CMakeFiles/rebuild_cache.dir

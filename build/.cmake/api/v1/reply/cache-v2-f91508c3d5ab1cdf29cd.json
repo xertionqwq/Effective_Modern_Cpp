@@ -827,7 +827,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "20"
+			"value" : "21"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1624,6 +1624,42 @@
 			],
 			"type" : "STATIC",
 			"value" : "/home/xertion/Code/Effective-Modern-C-/clause23_move_forward"
+		},
+		{
+			"name" : "clause15_constexpr_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/xertion/Code/Effective-Modern-C-/build/clause15_constexpr"
+		},
+		{
+			"name" : "clause15_constexpr_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "clause15_constexpr_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/xertion/Code/Effective-Modern-C-/clause15_constexpr"
 		},
 		{
 			"name" : "clause17_unique_member_BINARY_DIR",

@@ -338,6 +338,19 @@ item9/fast:
 .PHONY : item9/fast
 
 #=============================================================================
+# Target rules for targets named item15
+
+# Build rule for target.
+item15: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item15
+.PHONY : item15
+
+# fast build rule for target.
+item15/fast:
+	$(MAKE) $(MAKESILENT) -f clause15_constexpr/CMakeFiles/item15.dir/build.make clause15_constexpr/CMakeFiles/item15.dir/build
+.PHONY : item15/fast
+
+#=============================================================================
 # Target rules for targets named itme17
 
 # Build rule for target.
@@ -382,6 +395,7 @@ help:
 	@echo "... base8"
 	@echo "... base9"
 	@echo "... item1"
+	@echo "... item15"
 	@echo "... item2"
 	@echo "... item23"
 	@echo "... item3"

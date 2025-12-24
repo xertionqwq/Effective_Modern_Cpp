@@ -21,6 +21,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.2.0/CMakeCCompiler.cmake"
   "CMakeFiles/4.2.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.2.0/CMakeSystem.cmake"
+  "/home/xertion/Code/Effective-Modern-C-/clause15_constexpr/CMakeLists.txt"
   "/home/xertion/Code/Effective-Modern-C-/clause17_unique_member/CMakeLists.txt"
   "/home/xertion/Code/Effective-Modern-C-/clause1_template_derivation/CMakeLists.txt"
   "/home/xertion/Code/Effective-Modern-C-/clause23_move_forward/CMakeLists.txt"
@@ -86,6 +87,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "clause5_auto_initial/CMakeFiles/CMakeDirectoryInformation.cmake"
   "clause8_nullptr_NULL/CMakeFiles/CMakeDirectoryInformation.cmake"
   "clause9_using_typedef/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "clause15_constexpr/CMakeFiles/CMakeDirectoryInformation.cmake"
   "clause17_unique_member/CMakeFiles/CMakeDirectoryInformation.cmake"
   "clause23_move_forward/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
@@ -109,6 +111,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "clause5_auto_initial/CMakeFiles/item5.dir/DependInfo.cmake"
   "clause8_nullptr_NULL/CMakeFiles/item8.dir/DependInfo.cmake"
   "clause9_using_typedef/CMakeFiles/item9.dir/DependInfo.cmake"
+  "clause15_constexpr/CMakeFiles/item15.dir/DependInfo.cmake"
   "clause17_unique_member/CMakeFiles/itme17.dir/DependInfo.cmake"
   "clause23_move_forward/CMakeFiles/item23.dir/DependInfo.cmake"
   )
