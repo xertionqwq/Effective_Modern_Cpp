@@ -60,6 +60,18 @@
   "output": "base10_constructFun/CMakeFiles/base10.dir/base10.cpp.o"
 },
 {
+  "directory": "/home/xertion/Code/Effective-Modern-C-/build/base11_throw",
+  "command": "/usr/bin/g++   -fno-elide-constructors -g -std=c++14 -fno-elide-constructors -o CMakeFiles/base11_1.dir/try_catch.cpp.o -c /home/xertion/Code/Effective-Modern-C-/base11_throw/try_catch.cpp",
+  "file": "/home/xertion/Code/Effective-Modern-C-/base11_throw/try_catch.cpp",
+  "output": "base11_throw/CMakeFiles/base11_1.dir/try_catch.cpp.o"
+},
+{
+  "directory": "/home/xertion/Code/Effective-Modern-C-/build/base11_throw",
+  "command": "/usr/bin/g++   -fno-elide-constructors -g -std=c++14 -fno-elide-constructors -o CMakeFiles/base11_2.dir/swap_copy.cpp.o -c /home/xertion/Code/Effective-Modern-C-/base11_throw/swap_copy.cpp",
+  "file": "/home/xertion/Code/Effective-Modern-C-/base11_throw/swap_copy.cpp",
+  "output": "base11_throw/CMakeFiles/base11_2.dir/swap_copy.cpp.o"
+},
+{
   "directory": "/home/xertion/Code/Effective-Modern-C-/build/clause1_template_derivation",
   "command": "/usr/bin/g++   -fno-elide-constructors -g -std=c++14 -fno-elide-constructors -o CMakeFiles/item1.dir/item1.cpp.o -c /home/xertion/Code/Effective-Modern-C-/clause1_template_derivation/item1.cpp",
   "file": "/home/xertion/Code/Effective-Modern-C-/clause1_template_derivation/item1.cpp",

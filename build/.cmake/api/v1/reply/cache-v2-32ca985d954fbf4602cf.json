@@ -827,7 +827,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "21"
+			"value" : "22"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1300,6 +1300,42 @@
 			],
 			"type" : "STATIC",
 			"value" : "/home/xertion/Code/Effective-Modern-C-/base10_constructFun"
+		},
+		{
+			"name" : "base11_throw_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/xertion/Code/Effective-Modern-C-/build/base11_throw"
+		},
+		{
+			"name" : "base11_throw_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "base11_throw_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/xertion/Code/Effective-Modern-C-/base11_throw"
 		},
 		{
 			"name" : "base2_rval_quote_BINARY_DIR",

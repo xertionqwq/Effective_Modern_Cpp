@@ -94,6 +94,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/home/xertion/Code/Effective-Modern-C-/build/base11_throw/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/home/xertion/Code/Effective-Modern-C-/build/clause1_template_derivation/cmake_install.cmake")
 endif()
 

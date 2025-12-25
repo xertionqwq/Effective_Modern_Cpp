@@ -247,6 +247,32 @@ base10/fast:
 .PHONY : base10/fast
 
 #=============================================================================
+# Target rules for targets named base11_1
+
+# Build rule for target.
+base11_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 base11_1
+.PHONY : base11_1
+
+# fast build rule for target.
+base11_1/fast:
+	$(MAKE) $(MAKESILENT) -f base11_throw/CMakeFiles/base11_1.dir/build.make base11_throw/CMakeFiles/base11_1.dir/build
+.PHONY : base11_1/fast
+
+#=============================================================================
+# Target rules for targets named base11_2
+
+# Build rule for target.
+base11_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 base11_2
+.PHONY : base11_2
+
+# fast build rule for target.
+base11_2/fast:
+	$(MAKE) $(MAKESILENT) -f base11_throw/CMakeFiles/base11_2.dir/build.make base11_throw/CMakeFiles/base11_2.dir/build
+.PHONY : base11_2/fast
+
+#=============================================================================
 # Target rules for targets named item1
 
 # Build rule for target.
@@ -386,6 +412,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... base1"
 	@echo "... base10"
+	@echo "... base11_1"
+	@echo "... base11_2"
 	@echo "... base2"
 	@echo "... base3"
 	@echo "... base4"

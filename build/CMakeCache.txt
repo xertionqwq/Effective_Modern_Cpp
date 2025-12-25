@@ -248,6 +248,15 @@ base10_constructFun_IS_TOP_LEVEL:STATIC=OFF
 base10_constructFun_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/base10_constructFun
 
 //Value Computed by CMake
+base11_throw_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/base11_throw
+
+//Value Computed by CMake
+base11_throw_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+base11_throw_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/base11_throw
+
+//Value Computed by CMake
 base2_rval_quote_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/base2_rval_quote
 
 //Value Computed by CMake
@@ -525,7 +534,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=21
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=22
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

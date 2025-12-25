@@ -222,6 +222,9 @@
 			"path" : "base10_constructFun/CMakeLists.txt"
 		},
 		{
+			"path" : "base11_throw/CMakeLists.txt"
+		},
+		{
 			"path" : "clause1_template_derivation/CMakeLists.txt"
 		},
 		{
