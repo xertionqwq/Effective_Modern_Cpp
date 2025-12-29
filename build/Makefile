@@ -364,6 +364,32 @@ item9/fast:
 .PHONY : item9/fast
 
 #=============================================================================
+# Target rules for targets named item10
+
+# Build rule for target.
+item10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item10
+.PHONY : item10
+
+# fast build rule for target.
+item10/fast:
+	$(MAKE) $(MAKESILENT) -f clause10_classEnum/CMakeFiles/item10.dir/build.make clause10_classEnum/CMakeFiles/item10.dir/build
+.PHONY : item10/fast
+
+#=============================================================================
+# Target rules for targets named item14
+
+# Build rule for target.
+item14: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item14
+.PHONY : item14
+
+# fast build rule for target.
+item14/fast:
+	$(MAKE) $(MAKESILENT) -f clause14_noexcept/CMakeFiles/item14.dir/build.make clause14_noexcept/CMakeFiles/item14.dir/build
+.PHONY : item14/fast
+
+#=============================================================================
 # Target rules for targets named item15
 
 # Build rule for target.
@@ -423,6 +449,8 @@ help:
 	@echo "... base8"
 	@echo "... base9"
 	@echo "... item1"
+	@echo "... item10"
+	@echo "... item14"
 	@echo "... item15"
 	@echo "... item2"
 	@echo "... item23"

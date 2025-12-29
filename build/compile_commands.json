@@ -114,6 +114,18 @@
   "output": "clause9_using_typedef/CMakeFiles/item9.dir/item9.cpp.o"
 },
 {
+  "directory": "/home/xertion/Code/Effective-Modern-C-/build/clause10_classEnum",
+  "command": "/usr/bin/g++   -fno-elide-constructors -g -std=c++14 -fno-elide-constructors -o CMakeFiles/item10.dir/item10.cpp.o -c /home/xertion/Code/Effective-Modern-C-/clause10_classEnum/item10.cpp",
+  "file": "/home/xertion/Code/Effective-Modern-C-/clause10_classEnum/item10.cpp",
+  "output": "clause10_classEnum/CMakeFiles/item10.dir/item10.cpp.o"
+},
+{
+  "directory": "/home/xertion/Code/Effective-Modern-C-/build/clause14_noexcept",
+  "command": "/usr/bin/g++   -fno-elide-constructors -g -std=c++14 -fno-elide-constructors -o CMakeFiles/item14.dir/item14.cpp.o -c /home/xertion/Code/Effective-Modern-C-/clause14_noexcept/item14.cpp",
+  "file": "/home/xertion/Code/Effective-Modern-C-/clause14_noexcept/item14.cpp",
+  "output": "clause14_noexcept/CMakeFiles/item14.dir/item14.cpp.o"
+},
+{
   "directory": "/home/xertion/Code/Effective-Modern-C-/build/clause15_constexpr",
   "command": "/usr/bin/g++   -fno-elide-constructors -g -std=c++14 -fno-elide-constructors -o CMakeFiles/item15.dir/item15.cpp.o -c /home/xertion/Code/Effective-Modern-C-/clause15_constexpr/item15.cpp",
   "file": "/home/xertion/Code/Effective-Modern-C-/clause15_constexpr/item15.cpp",

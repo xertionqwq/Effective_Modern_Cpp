@@ -134,6 +134,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/home/xertion/Code/Effective-Modern-C-/build/clause10_classEnum/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/xertion/Code/Effective-Modern-C-/build/clause14_noexcept/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/home/xertion/Code/Effective-Modern-C-/build/clause15_constexpr/cmake_install.cmake")
 endif()
 

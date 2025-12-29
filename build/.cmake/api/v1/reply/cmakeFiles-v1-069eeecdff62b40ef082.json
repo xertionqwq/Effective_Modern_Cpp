@@ -246,6 +246,12 @@
 			"path" : "clause9_using_typedef/CMakeLists.txt"
 		},
 		{
+			"path" : "clause10_classEnum/CMakeLists.txt"
+		},
+		{
+			"path" : "clause14_noexcept/CMakeLists.txt"
+		},
+		{
 			"path" : "clause15_constexpr/CMakeLists.txt"
 		},
 		{

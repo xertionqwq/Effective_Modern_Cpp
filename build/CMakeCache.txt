@@ -338,6 +338,24 @@ clasuse23_move_forward_IS_TOP_LEVEL:STATIC=OFF
 clasuse23_move_forward_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/clause23_move_forward
 
 //Value Computed by CMake
+clause10_classEnum_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/clause10_classEnum
+
+//Value Computed by CMake
+clause10_classEnum_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+clause10_classEnum_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/clause10_classEnum
+
+//Value Computed by CMake
+clause14_noexcept_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/clause14_noexcept
+
+//Value Computed by CMake
+clause14_noexcept_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+clause14_noexcept_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/clause14_noexcept
+
+//Value Computed by CMake
 clause15_constexpr_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/clause15_constexpr
 
 //Value Computed by CMake
@@ -534,7 +552,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=22
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=24
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -827,7 +827,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "22"
+			"value" : "24"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1660,6 +1660,78 @@
 			],
 			"type" : "STATIC",
 			"value" : "/home/xertion/Code/Effective-Modern-C-/clause23_move_forward"
+		},
+		{
+			"name" : "clause10_classEnum_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/xertion/Code/Effective-Modern-C-/build/clause10_classEnum"
+		},
+		{
+			"name" : "clause10_classEnum_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "clause10_classEnum_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/xertion/Code/Effective-Modern-C-/clause10_classEnum"
+		},
+		{
+			"name" : "clause14_noexcept_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/xertion/Code/Effective-Modern-C-/build/clause14_noexcept"
+		},
+		{
+			"name" : "clause14_noexcept_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "clause14_noexcept_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/xertion/Code/Effective-Modern-C-/clause14_noexcept"
 		},
 		{
 			"name" : "clause15_constexpr_BINARY_DIR",
