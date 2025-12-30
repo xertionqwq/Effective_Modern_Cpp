@@ -90,7 +90,7 @@ int main() {
     std::vector<int> vec = {1, 2, 3};
     decltype(vec[1]) value = vec[1];//vec[1]为表达式, 推导为 int&
     std::vector<bool> vec2 = {true, false, true};
-    decltype(vec2[1]) value2;//推导类型并非bool&，而是std::vector<bool>::reference,也不需要初始赋值
+    // decltype(vec2[1]) value2;//推导类型并非bool&，而是std::vector<bool>::reference,也不需要初始赋值
     std::vector<Point> vec3 = { {1,2}, {3,4}, {5,6} };
     decltype(vec3[1]) value3 = vec3[1];
     // getVal(vec, 1) = 99;

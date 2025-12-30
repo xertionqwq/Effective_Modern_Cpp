@@ -1,1 +1,3 @@
-/usr/bin/g++ -fno-elide-constructors -g -Wl,--dependency-file=CMakeFiles/item15.dir/link.d CMakeFiles/item15.dir/item15.cpp.o -o item15
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\item15.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\item15.dir/objects.a @CMakeFiles\item15.dir\objects1.rsp
+c:\mingw64\bin\g++.exe -fno-elide-constructors -g -Wl,--whole-archive CMakeFiles\item15.dir/objects.a -Wl,--no-whole-archive -o item15.exe -Wl,--out-implib,libitem15.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\item15.dir\linkLibs.rsp

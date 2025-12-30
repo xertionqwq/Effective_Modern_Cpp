@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/xertion/Code/Effective-Modern-C-/base2_rval_quote/base2.cpp" "base2_rval_quote/CMakeFiles/base2.dir/base2.cpp.o" "gcc" "base2_rval_quote/CMakeFiles/base2.dir/base2.cpp.o.d"
-  "" "base2_rval_quote/base2" "gcc" "base2_rval_quote/CMakeFiles/base2.dir/link.d"
+  "E:/Code/Effective_Modern_Cpp/base2_rval_quote/base2.cpp" "base2_rval_quote/CMakeFiles/base2.dir/base2.cpp.obj" "gcc" "base2_rval_quote/CMakeFiles/base2.dir/base2.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

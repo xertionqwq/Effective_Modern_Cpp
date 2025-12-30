@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/xertion/Code/Effective-Modern-C-/clause3_decltype/item3.cpp" "clause3_decltype/CMakeFiles/item3.dir/item3.cpp.o" "gcc" "clause3_decltype/CMakeFiles/item3.dir/item3.cpp.o.d"
-  "" "clause3_decltype/item3" "gcc" "clause3_decltype/CMakeFiles/item3.dir/link.d"
+  "E:/Code/Effective_Modern_Cpp/clause3_decltype/item3.cpp" "clause3_decltype/CMakeFiles/item3.dir/item3.cpp.obj" "gcc" "clause3_decltype/CMakeFiles/item3.dir/item3.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

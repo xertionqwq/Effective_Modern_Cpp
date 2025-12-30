@@ -1,9 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/item7.dir/link.d"
-  "CMakeFiles/item7.dir/item7.cpp.o"
-  "CMakeFiles/item7.dir/item7.cpp.o.d"
-  "item7"
+  "CMakeFiles/item7.dir/item7.cpp.obj"
+  "CMakeFiles/item7.dir/item7.cpp.obj.d"
+  "item7.exe"
+  "item7.exe.manifest"
   "item7.pdb"
+  "libitem7.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
