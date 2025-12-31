@@ -7,9 +7,9 @@ void fT(T&& param){
     std::cout << typeid(param).name() << std::endl;
 }
 
-void fAuto(auto&& param){
-    std::cout << typeid(param).name() << std::endl;
-}
+// void fAuto(auto&& param){
+//     std::cout << typeid(param).name() << std::endl;
+// }
 
 template <typename T>
 void f1(T param){
@@ -50,7 +50,7 @@ int main() {
     const int *const cpca = &ca;
     23;
     fT(rrefa);//括号内摆放此前任意一个变量或常量，观察推导类型
-    fAuto(std::move(a));//括号内摆放此前任意一个变量或常量，观察推导类型   
+    // fAuto(std::move(a));//括号内摆放此前任意一个变量或常量，观察推导类型   
 
     auto x = 27;
     auto x1(27);

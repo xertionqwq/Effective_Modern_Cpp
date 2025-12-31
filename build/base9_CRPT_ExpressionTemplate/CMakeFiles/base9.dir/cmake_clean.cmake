@@ -1,10 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/base9.dir/base9.cpp.obj"
-  "CMakeFiles/base9.dir/base9.cpp.obj.d"
-  "base9.exe"
-  "base9.exe.manifest"
+  "CMakeFiles/base9.dir/link.d"
+  "CMakeFiles/base9.dir/base9.cpp.o"
+  "CMakeFiles/base9.dir/base9.cpp.o.d"
+  "base9"
   "base9.pdb"
-  "libbase9.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

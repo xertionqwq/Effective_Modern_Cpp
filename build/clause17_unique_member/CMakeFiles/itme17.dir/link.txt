@@ -1,3 +1,1 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\itme17.dir/objects.a
-C:\mingw64\bin\ar.exe qc CMakeFiles\itme17.dir/objects.a @CMakeFiles\itme17.dir\objects1.rsp
-c:\mingw64\bin\g++.exe -fno-elide-constructors -g -Wl,--whole-archive CMakeFiles\itme17.dir/objects.a -Wl,--no-whole-archive -o itme17.exe -Wl,--out-implib,libitme17.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\itme17.dir\linkLibs.rsp
+/usr/bin/g++ -fno-elide-constructors -g -Wl,--dependency-file=CMakeFiles/itme17.dir/link.d CMakeFiles/itme17.dir/item17.cpp.o -o itme17

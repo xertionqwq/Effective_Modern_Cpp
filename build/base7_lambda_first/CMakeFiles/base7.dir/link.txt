@@ -1,3 +1,1 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\base7.dir/objects.a
-C:\mingw64\bin\ar.exe qc CMakeFiles\base7.dir/objects.a @CMakeFiles\base7.dir\objects1.rsp
-c:\mingw64\bin\g++.exe -fno-elide-constructors -g -Wl,--whole-archive CMakeFiles\base7.dir/objects.a -Wl,--no-whole-archive -o base7.exe -Wl,--out-implib,libbase7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\base7.dir\linkLibs.rsp
+/usr/bin/g++ -fno-elide-constructors -g -Wl,--dependency-file=CMakeFiles/base7.dir/link.d CMakeFiles/base7.dir/base7.cpp.o -o base7

@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/Code/Effective_Modern_Cpp/base12_friend/base12.cpp" "base12_friend/CMakeFiles/base12.dir/base12.cpp.obj" "gcc" "base12_friend/CMakeFiles/base12.dir/base12.cpp.obj.d"
+  "/home/xertion/Code/Effective-Modern-C-/base12_friend/base12.cpp" "base12_friend/CMakeFiles/base12.dir/base12.cpp.o" "gcc" "base12_friend/CMakeFiles/base12.dir/base12.cpp.o.d"
+  "" "base12_friend/base12" "gcc" "base12_friend/CMakeFiles/base12.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

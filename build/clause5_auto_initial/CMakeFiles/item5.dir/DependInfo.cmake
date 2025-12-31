@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/Code/Effective_Modern_Cpp/clause5_auto_initial/item5.cpp" "clause5_auto_initial/CMakeFiles/item5.dir/item5.cpp.obj" "gcc" "clause5_auto_initial/CMakeFiles/item5.dir/item5.cpp.obj.d"
+  "/home/xertion/Code/Effective-Modern-C-/clause5_auto_initial/item5.cpp" "clause5_auto_initial/CMakeFiles/item5.dir/item5.cpp.o" "gcc" "clause5_auto_initial/CMakeFiles/item5.dir/item5.cpp.o.d"
+  "" "clause5_auto_initial/item5" "gcc" "clause5_auto_initial/CMakeFiles/item5.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

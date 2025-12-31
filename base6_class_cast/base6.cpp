@@ -108,10 +108,10 @@ int main() {
     // dynamic_cast
     Base *pb_dy = dynamic_cast<Base *>(&de);//上行安全
     pb_dy->fun();
-    Derived *pde_dy = dynamic_cast<Derived *>(&ba);//下行不安全，返回空指针
-    if (pde_dy) {
-        pde_dy->fun();
-    }
+    // Derived *pde_dy = dynamic_cast<Derived *>(&ba);//下行不安全，返回空指针
+    // if (pde_dy) {
+    //     pde_dy->fun();
+    // }
     Derived *safepde = static_cast<Derived *>(pb_dy);//子类已初始化，上行再下行，安全
     safepde->fun();
 
