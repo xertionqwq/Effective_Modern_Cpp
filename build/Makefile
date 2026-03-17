@@ -286,6 +286,32 @@ base12/fast:
 .PHONY : base12/fast
 
 #=============================================================================
+# Target rules for targets named base13
+
+# Build rule for target.
+base13: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 base13
+.PHONY : base13
+
+# fast build rule for target.
+base13/fast:
+	$(MAKE) $(MAKESILENT) -f base13_heap_memory/CMakeFiles/base13.dir/build.make base13_heap_memory/CMakeFiles/base13.dir/build
+.PHONY : base13/fast
+
+#=============================================================================
+# Target rules for targets named base14
+
+# Build rule for target.
+base14: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 base14
+.PHONY : base14
+
+# fast build rule for target.
+base14/fast:
+	$(MAKE) $(MAKESILENT) -f base14_allocateMemory/CMakeFiles/base14.dir/build.make base14_allocateMemory/CMakeFiles/base14.dir/build
+.PHONY : base14/fast
+
+#=============================================================================
 # Target rules for targets named item1
 
 # Build rule for target.
@@ -493,6 +519,8 @@ help:
 	@echo "... base11_1"
 	@echo "... base11_2"
 	@echo "... base12"
+	@echo "... base13"
+	@echo "... base14"
 	@echo "... base2"
 	@echo "... base3"
 	@echo "... base4"

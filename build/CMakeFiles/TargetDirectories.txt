@@ -37,6 +37,12 @@
 /home/xertion/Code/Effective-Modern-C-/build/base12_friend/CMakeFiles/base12.dir
 /home/xertion/Code/Effective-Modern-C-/build/base12_friend/CMakeFiles/edit_cache.dir
 /home/xertion/Code/Effective-Modern-C-/build/base12_friend/CMakeFiles/rebuild_cache.dir
+/home/xertion/Code/Effective-Modern-C-/build/base13_heap_memory/CMakeFiles/base13.dir
+/home/xertion/Code/Effective-Modern-C-/build/base13_heap_memory/CMakeFiles/edit_cache.dir
+/home/xertion/Code/Effective-Modern-C-/build/base13_heap_memory/CMakeFiles/rebuild_cache.dir
+/home/xertion/Code/Effective-Modern-C-/build/base14_allocateMemory/CMakeFiles/base14.dir
+/home/xertion/Code/Effective-Modern-C-/build/base14_allocateMemory/CMakeFiles/edit_cache.dir
+/home/xertion/Code/Effective-Modern-C-/build/base14_allocateMemory/CMakeFiles/rebuild_cache.dir
 /home/xertion/Code/Effective-Modern-C-/build/clause1_template_derivation/CMakeFiles/item1.dir
 /home/xertion/Code/Effective-Modern-C-/build/clause1_template_derivation/CMakeFiles/edit_cache.dir
 /home/xertion/Code/Effective-Modern-C-/build/clause1_template_derivation/CMakeFiles/rebuild_cache.dir
