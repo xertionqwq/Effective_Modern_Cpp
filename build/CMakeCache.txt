@@ -284,6 +284,33 @@ base14_heap_memory_IS_TOP_LEVEL:STATIC=OFF
 base14_heap_memory_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/base14_allocateMemory
 
 //Value Computed by CMake
+base15__BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/base15_rewrite_newAdelete
+
+//Value Computed by CMake
+base15__IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+base15__SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/base15_rewrite_newAdelete
+
+//Value Computed by CMake
+base15_rewrite_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/base15_rewrite_newAdelete
+
+//Value Computed by CMake
+base15_rewrite_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+base15_rewrite_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/base15_rewrite_newAdelete
+
+//Value Computed by CMake
+base15_rewrite_newAdelete_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/base15_rewrite_newAdelete
+
+//Value Computed by CMake
+base15_rewrite_newAdelete_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+base15_rewrite_newAdelete_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/base15_rewrite_newAdelete
+
+//Value Computed by CMake
 base2_rval_quote_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/base2_rval_quote
 
 //Value Computed by CMake
@@ -597,7 +624,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=30
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=31
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

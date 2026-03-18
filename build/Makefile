@@ -312,6 +312,19 @@ base14/fast:
 .PHONY : base14/fast
 
 #=============================================================================
+# Target rules for targets named base15
+
+# Build rule for target.
+base15: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 base15
+.PHONY : base15
+
+# fast build rule for target.
+base15/fast:
+	$(MAKE) $(MAKESILENT) -f base15_rewrite_newAdelete/CMakeFiles/base15.dir/build.make base15_rewrite_newAdelete/CMakeFiles/base15.dir/build
+.PHONY : base15/fast
+
+#=============================================================================
 # Target rules for targets named item1
 
 # Build rule for target.
@@ -521,6 +534,7 @@ help:
 	@echo "... base12"
 	@echo "... base13"
 	@echo "... base14"
+	@echo "... base15"
 	@echo "... base2"
 	@echo "... base3"
 	@echo "... base4"

@@ -90,6 +90,12 @@
   "output": "base14_allocateMemory/CMakeFiles/base14.dir/base14.cpp.o"
 },
 {
+  "directory": "/home/xertion/Code/Effective-Modern-C-/build/base15_rewrite_newAdelete",
+  "command": "/usr/bin/g++   -fno-elide-constructors -g -std=c++14 -fno-elide-constructors -o CMakeFiles/base15.dir/base15.cpp.o -c /home/xertion/Code/Effective-Modern-C-/base15_rewrite_newAdelete/base15.cpp",
+  "file": "/home/xertion/Code/Effective-Modern-C-/base15_rewrite_newAdelete/base15.cpp",
+  "output": "base15_rewrite_newAdelete/CMakeFiles/base15.dir/base15.cpp.o"
+},
+{
   "directory": "/home/xertion/Code/Effective-Modern-C-/build/clause1_template_derivation",
   "command": "/usr/bin/g++   -fno-elide-constructors -g -std=c++14 -fno-elide-constructors -o CMakeFiles/item1.dir/item1.cpp.o -c /home/xertion/Code/Effective-Modern-C-/clause1_template_derivation/item1.cpp",
   "file": "/home/xertion/Code/Effective-Modern-C-/clause1_template_derivation/item1.cpp",
