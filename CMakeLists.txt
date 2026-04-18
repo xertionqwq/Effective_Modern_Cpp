@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.15)
 
-# 强制 C++14 标准（匹配你的需求，且确保移动语义正常）
+# 强制 C++14 标准（确保移动语义正常）
 set(CMAKE_CXX_STANDARD 14) #标准一定要为14才能关闭RVO
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
@@ -49,3 +49,4 @@ add_subdirectory(clause20_weak_ptr)
 add_subdirectory(clause21_use_makeShared)
 add_subdirectory(clause22_Pimpl)
 add_subdirectory(clause23_move_forward)
+add_subdirectory(clause24_generalRef_rvalRef)

@@ -78,6 +78,7 @@ all: base12_friend/all
 all: base13_heap_memory/all
 all: base14_allocateMemory/all
 all: base15_rewrite_newAdelete/all
+all: base16_Array_new_delete/all
 all: clause1_template_derivation/all
 all: clause2_auto_derivation/all
 all: clause3_decltype/all
@@ -92,7 +93,13 @@ all: clause13_const_iterator/all
 all: clause14_noexcept/all
 all: clause15_constexpr/all
 all: clause17_unique_member/all
+all: clause18_unique_ptr/all
+all: clause19_shared_ptr/all
+all: clause20_weak_ptr/all
+all: clause21_use_makeShared/all
+all: clause22_Pimpl/all
 all: clause23_move_forward/all
+all: clause24_generalRef_rvalRef/all
 .PHONY : all
 
 # The main recursive "codegen" target.
@@ -111,6 +118,7 @@ codegen: base12_friend/codegen
 codegen: base13_heap_memory/codegen
 codegen: base14_allocateMemory/codegen
 codegen: base15_rewrite_newAdelete/codegen
+codegen: base16_Array_new_delete/codegen
 codegen: clause1_template_derivation/codegen
 codegen: clause2_auto_derivation/codegen
 codegen: clause3_decltype/codegen
@@ -125,7 +133,13 @@ codegen: clause13_const_iterator/codegen
 codegen: clause14_noexcept/codegen
 codegen: clause15_constexpr/codegen
 codegen: clause17_unique_member/codegen
+codegen: clause18_unique_ptr/codegen
+codegen: clause19_shared_ptr/codegen
+codegen: clause20_weak_ptr/codegen
+codegen: clause21_use_makeShared/codegen
+codegen: clause22_Pimpl/codegen
 codegen: clause23_move_forward/codegen
+codegen: clause24_generalRef_rvalRef/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -144,6 +158,7 @@ preinstall: base12_friend/preinstall
 preinstall: base13_heap_memory/preinstall
 preinstall: base14_allocateMemory/preinstall
 preinstall: base15_rewrite_newAdelete/preinstall
+preinstall: base16_Array_new_delete/preinstall
 preinstall: clause1_template_derivation/preinstall
 preinstall: clause2_auto_derivation/preinstall
 preinstall: clause3_decltype/preinstall
@@ -158,7 +173,13 @@ preinstall: clause13_const_iterator/preinstall
 preinstall: clause14_noexcept/preinstall
 preinstall: clause15_constexpr/preinstall
 preinstall: clause17_unique_member/preinstall
+preinstall: clause18_unique_ptr/preinstall
+preinstall: clause19_shared_ptr/preinstall
+preinstall: clause20_weak_ptr/preinstall
+preinstall: clause21_use_makeShared/preinstall
+preinstall: clause22_Pimpl/preinstall
 preinstall: clause23_move_forward/preinstall
+preinstall: clause24_generalRef_rvalRef/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -177,6 +198,7 @@ clean: base12_friend/clean
 clean: base13_heap_memory/clean
 clean: base14_allocateMemory/clean
 clean: base15_rewrite_newAdelete/clean
+clean: base16_Array_new_delete/clean
 clean: clause1_template_derivation/clean
 clean: clause2_auto_derivation/clean
 clean: clause3_decltype/clean
@@ -191,7 +213,13 @@ clean: clause13_const_iterator/clean
 clean: clause14_noexcept/clean
 clean: clause15_constexpr/clean
 clean: clause17_unique_member/clean
+clean: clause18_unique_ptr/clean
+clean: clause19_shared_ptr/clean
+clean: clause20_weak_ptr/clean
+clean: clause21_use_makeShared/clean
+clean: clause22_Pimpl/clean
 clean: clause23_move_forward/clean
+clean: clause24_generalRef_rvalRef/clean
 .PHONY : clean
 
 #=============================================================================
@@ -329,6 +357,25 @@ base15_rewrite_newAdelete/preinstall:
 # Recursive "clean" directory target.
 base15_rewrite_newAdelete/clean: base15_rewrite_newAdelete/CMakeFiles/base15.dir/clean
 .PHONY : base15_rewrite_newAdelete/clean
+
+#=============================================================================
+# Directory level rules for directory base16_Array_new_delete
+
+# Recursive "all" directory target.
+base16_Array_new_delete/all: base16_Array_new_delete/CMakeFiles/base16.dir/all
+.PHONY : base16_Array_new_delete/all
+
+# Recursive "codegen" directory target.
+base16_Array_new_delete/codegen: base16_Array_new_delete/CMakeFiles/base16.dir/codegen
+.PHONY : base16_Array_new_delete/codegen
+
+# Recursive "preinstall" directory target.
+base16_Array_new_delete/preinstall:
+.PHONY : base16_Array_new_delete/preinstall
+
+# Recursive "clean" directory target.
+base16_Array_new_delete/clean: base16_Array_new_delete/CMakeFiles/base16.dir/clean
+.PHONY : base16_Array_new_delete/clean
 
 #=============================================================================
 # Directory level rules for directory base2_rval_quote
@@ -616,6 +663,44 @@ clause17_unique_member/clean: clause17_unique_member/CMakeFiles/itme17.dir/clean
 .PHONY : clause17_unique_member/clean
 
 #=============================================================================
+# Directory level rules for directory clause18_unique_ptr
+
+# Recursive "all" directory target.
+clause18_unique_ptr/all: clause18_unique_ptr/CMakeFiles/item18.dir/all
+.PHONY : clause18_unique_ptr/all
+
+# Recursive "codegen" directory target.
+clause18_unique_ptr/codegen: clause18_unique_ptr/CMakeFiles/item18.dir/codegen
+.PHONY : clause18_unique_ptr/codegen
+
+# Recursive "preinstall" directory target.
+clause18_unique_ptr/preinstall:
+.PHONY : clause18_unique_ptr/preinstall
+
+# Recursive "clean" directory target.
+clause18_unique_ptr/clean: clause18_unique_ptr/CMakeFiles/item18.dir/clean
+.PHONY : clause18_unique_ptr/clean
+
+#=============================================================================
+# Directory level rules for directory clause19_shared_ptr
+
+# Recursive "all" directory target.
+clause19_shared_ptr/all: clause19_shared_ptr/CMakeFiles/item19.dir/all
+.PHONY : clause19_shared_ptr/all
+
+# Recursive "codegen" directory target.
+clause19_shared_ptr/codegen: clause19_shared_ptr/CMakeFiles/item19.dir/codegen
+.PHONY : clause19_shared_ptr/codegen
+
+# Recursive "preinstall" directory target.
+clause19_shared_ptr/preinstall:
+.PHONY : clause19_shared_ptr/preinstall
+
+# Recursive "clean" directory target.
+clause19_shared_ptr/clean: clause19_shared_ptr/CMakeFiles/item19.dir/clean
+.PHONY : clause19_shared_ptr/clean
+
+#=============================================================================
 # Directory level rules for directory clause1_template_derivation
 
 # Recursive "all" directory target.
@@ -635,6 +720,63 @@ clause1_template_derivation/clean: clause1_template_derivation/CMakeFiles/item1.
 .PHONY : clause1_template_derivation/clean
 
 #=============================================================================
+# Directory level rules for directory clause20_weak_ptr
+
+# Recursive "all" directory target.
+clause20_weak_ptr/all: clause20_weak_ptr/CMakeFiles/item20.dir/all
+.PHONY : clause20_weak_ptr/all
+
+# Recursive "codegen" directory target.
+clause20_weak_ptr/codegen: clause20_weak_ptr/CMakeFiles/item20.dir/codegen
+.PHONY : clause20_weak_ptr/codegen
+
+# Recursive "preinstall" directory target.
+clause20_weak_ptr/preinstall:
+.PHONY : clause20_weak_ptr/preinstall
+
+# Recursive "clean" directory target.
+clause20_weak_ptr/clean: clause20_weak_ptr/CMakeFiles/item20.dir/clean
+.PHONY : clause20_weak_ptr/clean
+
+#=============================================================================
+# Directory level rules for directory clause21_use_makeShared
+
+# Recursive "all" directory target.
+clause21_use_makeShared/all: clause21_use_makeShared/CMakeFiles/item21.dir/all
+.PHONY : clause21_use_makeShared/all
+
+# Recursive "codegen" directory target.
+clause21_use_makeShared/codegen: clause21_use_makeShared/CMakeFiles/item21.dir/codegen
+.PHONY : clause21_use_makeShared/codegen
+
+# Recursive "preinstall" directory target.
+clause21_use_makeShared/preinstall:
+.PHONY : clause21_use_makeShared/preinstall
+
+# Recursive "clean" directory target.
+clause21_use_makeShared/clean: clause21_use_makeShared/CMakeFiles/item21.dir/clean
+.PHONY : clause21_use_makeShared/clean
+
+#=============================================================================
+# Directory level rules for directory clause22_Pimpl
+
+# Recursive "all" directory target.
+clause22_Pimpl/all: clause22_Pimpl/CMakeFiles/item22.dir/all
+.PHONY : clause22_Pimpl/all
+
+# Recursive "codegen" directory target.
+clause22_Pimpl/codegen: clause22_Pimpl/CMakeFiles/item22.dir/codegen
+.PHONY : clause22_Pimpl/codegen
+
+# Recursive "preinstall" directory target.
+clause22_Pimpl/preinstall:
+.PHONY : clause22_Pimpl/preinstall
+
+# Recursive "clean" directory target.
+clause22_Pimpl/clean: clause22_Pimpl/CMakeFiles/item22.dir/clean
+.PHONY : clause22_Pimpl/clean
+
+#=============================================================================
 # Directory level rules for directory clause23_move_forward
 
 # Recursive "all" directory target.
@@ -652,6 +794,25 @@ clause23_move_forward/preinstall:
 # Recursive "clean" directory target.
 clause23_move_forward/clean: clause23_move_forward/CMakeFiles/item23.dir/clean
 .PHONY : clause23_move_forward/clean
+
+#=============================================================================
+# Directory level rules for directory clause24_generalRef_rvalRef
+
+# Recursive "all" directory target.
+clause24_generalRef_rvalRef/all: clause24_generalRef_rvalRef/CMakeFiles/item24.dir/all
+.PHONY : clause24_generalRef_rvalRef/all
+
+# Recursive "codegen" directory target.
+clause24_generalRef_rvalRef/codegen: clause24_generalRef_rvalRef/CMakeFiles/item24.dir/codegen
+.PHONY : clause24_generalRef_rvalRef/codegen
+
+# Recursive "preinstall" directory target.
+clause24_generalRef_rvalRef/preinstall:
+.PHONY : clause24_generalRef_rvalRef/preinstall
+
+# Recursive "clean" directory target.
+clause24_generalRef_rvalRef/clean: clause24_generalRef_rvalRef/CMakeFiles/item24.dir/clean
+.PHONY : clause24_generalRef_rvalRef/clean
 
 #=============================================================================
 # Directory level rules for directory clause2_auto_derivation
@@ -806,7 +967,7 @@ Base1_const/CMakeFiles/base1.dir/clean:
 base2_rval_quote/CMakeFiles/base2.dir/all:
 	$(MAKE) $(MAKESILENT) -f base2_rval_quote/CMakeFiles/base2.dir/build.make base2_rval_quote/CMakeFiles/base2.dir/depend
 	$(MAKE) $(MAKESILENT) -f base2_rval_quote/CMakeFiles/base2.dir/build.make base2_rval_quote/CMakeFiles/base2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=17,18 "Built target base2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=19,20 "Built target base2"
 .PHONY : base2_rval_quote/CMakeFiles/base2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -823,7 +984,7 @@ base2: base2_rval_quote/CMakeFiles/base2.dir/rule
 # codegen rule for target.
 base2_rval_quote/CMakeFiles/base2.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f base2_rval_quote/CMakeFiles/base2.dir/build.make base2_rval_quote/CMakeFiles/base2.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=17,18 "Finished codegen for target base2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=19,20 "Finished codegen for target base2"
 .PHONY : base2_rval_quote/CMakeFiles/base2.dir/codegen
 
 # clean rule for target.
@@ -838,7 +999,7 @@ base2_rval_quote/CMakeFiles/base2.dir/clean:
 base3_arr_fun_ptr/CMakeFiles/base3.dir/all:
 	$(MAKE) $(MAKESILENT) -f base3_arr_fun_ptr/CMakeFiles/base3.dir/build.make base3_arr_fun_ptr/CMakeFiles/base3.dir/depend
 	$(MAKE) $(MAKESILENT) -f base3_arr_fun_ptr/CMakeFiles/base3.dir/build.make base3_arr_fun_ptr/CMakeFiles/base3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=19,20 "Built target base3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=21,22 "Built target base3"
 .PHONY : base3_arr_fun_ptr/CMakeFiles/base3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -855,7 +1016,7 @@ base3: base3_arr_fun_ptr/CMakeFiles/base3.dir/rule
 # codegen rule for target.
 base3_arr_fun_ptr/CMakeFiles/base3.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f base3_arr_fun_ptr/CMakeFiles/base3.dir/build.make base3_arr_fun_ptr/CMakeFiles/base3.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=19,20 "Finished codegen for target base3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=21,22 "Finished codegen for target base3"
 .PHONY : base3_arr_fun_ptr/CMakeFiles/base3.dir/codegen
 
 # clean rule for target.
@@ -870,7 +1031,7 @@ base3_arr_fun_ptr/CMakeFiles/base3.dir/clean:
 base4_class_layout/CMakeFiles/base4.dir/all:
 	$(MAKE) $(MAKESILENT) -f base4_class_layout/CMakeFiles/base4.dir/build.make base4_class_layout/CMakeFiles/base4.dir/depend
 	$(MAKE) $(MAKESILENT) -f base4_class_layout/CMakeFiles/base4.dir/build.make base4_class_layout/CMakeFiles/base4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=21,22 "Built target base4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=23,24 "Built target base4"
 .PHONY : base4_class_layout/CMakeFiles/base4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -887,7 +1048,7 @@ base4: base4_class_layout/CMakeFiles/base4.dir/rule
 # codegen rule for target.
 base4_class_layout/CMakeFiles/base4.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f base4_class_layout/CMakeFiles/base4.dir/build.make base4_class_layout/CMakeFiles/base4.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=21,22 "Finished codegen for target base4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=23,24 "Finished codegen for target base4"
 .PHONY : base4_class_layout/CMakeFiles/base4.dir/codegen
 
 # clean rule for target.
@@ -902,7 +1063,7 @@ base4_class_layout/CMakeFiles/base4.dir/clean:
 base5_RTTI/CMakeFiles/base5.dir/all:
 	$(MAKE) $(MAKESILENT) -f base5_RTTI/CMakeFiles/base5.dir/build.make base5_RTTI/CMakeFiles/base5.dir/depend
 	$(MAKE) $(MAKESILENT) -f base5_RTTI/CMakeFiles/base5.dir/build.make base5_RTTI/CMakeFiles/base5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=23,24 "Built target base5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=25,26 "Built target base5"
 .PHONY : base5_RTTI/CMakeFiles/base5.dir/all
 
 # Build rule for subdir invocation for target.
@@ -919,7 +1080,7 @@ base5: base5_RTTI/CMakeFiles/base5.dir/rule
 # codegen rule for target.
 base5_RTTI/CMakeFiles/base5.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f base5_RTTI/CMakeFiles/base5.dir/build.make base5_RTTI/CMakeFiles/base5.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=23,24 "Finished codegen for target base5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=25,26 "Finished codegen for target base5"
 .PHONY : base5_RTTI/CMakeFiles/base5.dir/codegen
 
 # clean rule for target.
@@ -934,7 +1095,7 @@ base5_RTTI/CMakeFiles/base5.dir/clean:
 base6_class_cast/CMakeFiles/base6.dir/all:
 	$(MAKE) $(MAKESILENT) -f base6_class_cast/CMakeFiles/base6.dir/build.make base6_class_cast/CMakeFiles/base6.dir/depend
 	$(MAKE) $(MAKESILENT) -f base6_class_cast/CMakeFiles/base6.dir/build.make base6_class_cast/CMakeFiles/base6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=25,26 "Built target base6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=27,28 "Built target base6"
 .PHONY : base6_class_cast/CMakeFiles/base6.dir/all
 
 # Build rule for subdir invocation for target.
@@ -951,7 +1112,7 @@ base6: base6_class_cast/CMakeFiles/base6.dir/rule
 # codegen rule for target.
 base6_class_cast/CMakeFiles/base6.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f base6_class_cast/CMakeFiles/base6.dir/build.make base6_class_cast/CMakeFiles/base6.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=25,26 "Finished codegen for target base6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=27,28 "Finished codegen for target base6"
 .PHONY : base6_class_cast/CMakeFiles/base6.dir/codegen
 
 # clean rule for target.
@@ -966,7 +1127,7 @@ base6_class_cast/CMakeFiles/base6.dir/clean:
 base7_lambda_first/CMakeFiles/base7.dir/all:
 	$(MAKE) $(MAKESILENT) -f base7_lambda_first/CMakeFiles/base7.dir/build.make base7_lambda_first/CMakeFiles/base7.dir/depend
 	$(MAKE) $(MAKESILENT) -f base7_lambda_first/CMakeFiles/base7.dir/build.make base7_lambda_first/CMakeFiles/base7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=27,28 "Built target base7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=29,30 "Built target base7"
 .PHONY : base7_lambda_first/CMakeFiles/base7.dir/all
 
 # Build rule for subdir invocation for target.
@@ -983,7 +1144,7 @@ base7: base7_lambda_first/CMakeFiles/base7.dir/rule
 # codegen rule for target.
 base7_lambda_first/CMakeFiles/base7.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f base7_lambda_first/CMakeFiles/base7.dir/build.make base7_lambda_first/CMakeFiles/base7.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=27,28 "Finished codegen for target base7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=29,30 "Finished codegen for target base7"
 .PHONY : base7_lambda_first/CMakeFiles/base7.dir/codegen
 
 # clean rule for target.
@@ -998,7 +1159,7 @@ base7_lambda_first/CMakeFiles/base7.dir/clean:
 base8_usable_class/CMakeFiles/base8.dir/all:
 	$(MAKE) $(MAKESILENT) -f base8_usable_class/CMakeFiles/base8.dir/build.make base8_usable_class/CMakeFiles/base8.dir/depend
 	$(MAKE) $(MAKESILENT) -f base8_usable_class/CMakeFiles/base8.dir/build.make base8_usable_class/CMakeFiles/base8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=29,30 "Built target base8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=31,32 "Built target base8"
 .PHONY : base8_usable_class/CMakeFiles/base8.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1015,7 +1176,7 @@ base8: base8_usable_class/CMakeFiles/base8.dir/rule
 # codegen rule for target.
 base8_usable_class/CMakeFiles/base8.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f base8_usable_class/CMakeFiles/base8.dir/build.make base8_usable_class/CMakeFiles/base8.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=29,30 "Finished codegen for target base8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=31,32 "Finished codegen for target base8"
 .PHONY : base8_usable_class/CMakeFiles/base8.dir/codegen
 
 # clean rule for target.
@@ -1030,7 +1191,7 @@ base8_usable_class/CMakeFiles/base8.dir/clean:
 base9_CRPT_ExpressionTemplate/CMakeFiles/base9.dir/all:
 	$(MAKE) $(MAKESILENT) -f base9_CRPT_ExpressionTemplate/CMakeFiles/base9.dir/build.make base9_CRPT_ExpressionTemplate/CMakeFiles/base9.dir/depend
 	$(MAKE) $(MAKESILENT) -f base9_CRPT_ExpressionTemplate/CMakeFiles/base9.dir/build.make base9_CRPT_ExpressionTemplate/CMakeFiles/base9.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=31,32 "Built target base9"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=33,34 "Built target base9"
 .PHONY : base9_CRPT_ExpressionTemplate/CMakeFiles/base9.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1047,7 +1208,7 @@ base9: base9_CRPT_ExpressionTemplate/CMakeFiles/base9.dir/rule
 # codegen rule for target.
 base9_CRPT_ExpressionTemplate/CMakeFiles/base9.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f base9_CRPT_ExpressionTemplate/CMakeFiles/base9.dir/build.make base9_CRPT_ExpressionTemplate/CMakeFiles/base9.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=31,32 "Finished codegen for target base9"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=33,34 "Finished codegen for target base9"
 .PHONY : base9_CRPT_ExpressionTemplate/CMakeFiles/base9.dir/codegen
 
 # clean rule for target.
@@ -1280,13 +1441,45 @@ base15_rewrite_newAdelete/CMakeFiles/base15.dir/clean:
 .PHONY : base15_rewrite_newAdelete/CMakeFiles/base15.dir/clean
 
 #=============================================================================
+# Target rules for target base16_Array_new_delete/CMakeFiles/base16.dir
+
+# All Build rule for target.
+base16_Array_new_delete/CMakeFiles/base16.dir/all:
+	$(MAKE) $(MAKESILENT) -f base16_Array_new_delete/CMakeFiles/base16.dir/build.make base16_Array_new_delete/CMakeFiles/base16.dir/depend
+	$(MAKE) $(MAKESILENT) -f base16_Array_new_delete/CMakeFiles/base16.dir/build.make base16_Array_new_delete/CMakeFiles/base16.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=17,18 "Built target base16"
+.PHONY : base16_Array_new_delete/CMakeFiles/base16.dir/all
+
+# Build rule for subdir invocation for target.
+base16_Array_new_delete/CMakeFiles/base16.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xertion/Code/Effective-Modern-C-/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 base16_Array_new_delete/CMakeFiles/base16.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xertion/Code/Effective-Modern-C-/build/CMakeFiles 0
+.PHONY : base16_Array_new_delete/CMakeFiles/base16.dir/rule
+
+# Convenience name for target.
+base16: base16_Array_new_delete/CMakeFiles/base16.dir/rule
+.PHONY : base16
+
+# codegen rule for target.
+base16_Array_new_delete/CMakeFiles/base16.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f base16_Array_new_delete/CMakeFiles/base16.dir/build.make base16_Array_new_delete/CMakeFiles/base16.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=17,18 "Finished codegen for target base16"
+.PHONY : base16_Array_new_delete/CMakeFiles/base16.dir/codegen
+
+# clean rule for target.
+base16_Array_new_delete/CMakeFiles/base16.dir/clean:
+	$(MAKE) $(MAKESILENT) -f base16_Array_new_delete/CMakeFiles/base16.dir/build.make base16_Array_new_delete/CMakeFiles/base16.dir/clean
+.PHONY : base16_Array_new_delete/CMakeFiles/base16.dir/clean
+
+#=============================================================================
 # Target rules for target clause1_template_derivation/CMakeFiles/item1.dir
 
 # All Build rule for target.
 clause1_template_derivation/CMakeFiles/item1.dir/all:
 	$(MAKE) $(MAKESILENT) -f clause1_template_derivation/CMakeFiles/item1.dir/build.make clause1_template_derivation/CMakeFiles/item1.dir/depend
 	$(MAKE) $(MAKESILENT) -f clause1_template_derivation/CMakeFiles/item1.dir/build.make clause1_template_derivation/CMakeFiles/item1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=33,34 "Built target item1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=35,36 "Built target item1"
 .PHONY : clause1_template_derivation/CMakeFiles/item1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1303,7 +1496,7 @@ item1: clause1_template_derivation/CMakeFiles/item1.dir/rule
 # codegen rule for target.
 clause1_template_derivation/CMakeFiles/item1.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f clause1_template_derivation/CMakeFiles/item1.dir/build.make clause1_template_derivation/CMakeFiles/item1.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=33,34 "Finished codegen for target item1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=35,36 "Finished codegen for target item1"
 .PHONY : clause1_template_derivation/CMakeFiles/item1.dir/codegen
 
 # clean rule for target.
@@ -1318,7 +1511,7 @@ clause1_template_derivation/CMakeFiles/item1.dir/clean:
 clause2_auto_derivation/CMakeFiles/item2.dir/all:
 	$(MAKE) $(MAKESILENT) -f clause2_auto_derivation/CMakeFiles/item2.dir/build.make clause2_auto_derivation/CMakeFiles/item2.dir/depend
 	$(MAKE) $(MAKESILENT) -f clause2_auto_derivation/CMakeFiles/item2.dir/build.make clause2_auto_derivation/CMakeFiles/item2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=47,48 "Built target item2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=53,54 "Built target item2"
 .PHONY : clause2_auto_derivation/CMakeFiles/item2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1335,7 +1528,7 @@ item2: clause2_auto_derivation/CMakeFiles/item2.dir/rule
 # codegen rule for target.
 clause2_auto_derivation/CMakeFiles/item2.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f clause2_auto_derivation/CMakeFiles/item2.dir/build.make clause2_auto_derivation/CMakeFiles/item2.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=47,48 "Finished codegen for target item2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=53,54 "Finished codegen for target item2"
 .PHONY : clause2_auto_derivation/CMakeFiles/item2.dir/codegen
 
 # clean rule for target.
@@ -1350,7 +1543,7 @@ clause2_auto_derivation/CMakeFiles/item2.dir/clean:
 clause3_decltype/CMakeFiles/item3.dir/all:
 	$(MAKE) $(MAKESILENT) -f clause3_decltype/CMakeFiles/item3.dir/build.make clause3_decltype/CMakeFiles/item3.dir/depend
 	$(MAKE) $(MAKESILENT) -f clause3_decltype/CMakeFiles/item3.dir/build.make clause3_decltype/CMakeFiles/item3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=51,52 "Built target item3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=66,67 "Built target item3"
 .PHONY : clause3_decltype/CMakeFiles/item3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1367,7 +1560,7 @@ item3: clause3_decltype/CMakeFiles/item3.dir/rule
 # codegen rule for target.
 clause3_decltype/CMakeFiles/item3.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f clause3_decltype/CMakeFiles/item3.dir/build.make clause3_decltype/CMakeFiles/item3.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=51,52 "Finished codegen for target item3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=66,67 "Finished codegen for target item3"
 .PHONY : clause3_decltype/CMakeFiles/item3.dir/codegen
 
 # clean rule for target.
@@ -1382,7 +1575,7 @@ clause3_decltype/CMakeFiles/item3.dir/clean:
 clause7_initial/CMakeFiles/item7.dir/all:
 	$(MAKE) $(MAKESILENT) -f clause7_initial/CMakeFiles/item7.dir/build.make clause7_initial/CMakeFiles/item7.dir/depend
 	$(MAKE) $(MAKESILENT) -f clause7_initial/CMakeFiles/item7.dir/build.make clause7_initial/CMakeFiles/item7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=55,56 "Built target item7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=70,71 "Built target item7"
 .PHONY : clause7_initial/CMakeFiles/item7.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1399,7 +1592,7 @@ item7: clause7_initial/CMakeFiles/item7.dir/rule
 # codegen rule for target.
 clause7_initial/CMakeFiles/item7.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f clause7_initial/CMakeFiles/item7.dir/build.make clause7_initial/CMakeFiles/item7.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=55,56 "Finished codegen for target item7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=70,71 "Finished codegen for target item7"
 .PHONY : clause7_initial/CMakeFiles/item7.dir/codegen
 
 # clean rule for target.
@@ -1414,7 +1607,7 @@ clause7_initial/CMakeFiles/item7.dir/clean:
 clause5_auto_initial/CMakeFiles/item5.dir/all:
 	$(MAKE) $(MAKESILENT) -f clause5_auto_initial/CMakeFiles/item5.dir/build.make clause5_auto_initial/CMakeFiles/item5.dir/depend
 	$(MAKE) $(MAKESILENT) -f clause5_auto_initial/CMakeFiles/item5.dir/build.make clause5_auto_initial/CMakeFiles/item5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=53,54 "Built target item5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=68,69 "Built target item5"
 .PHONY : clause5_auto_initial/CMakeFiles/item5.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1431,7 +1624,7 @@ item5: clause5_auto_initial/CMakeFiles/item5.dir/rule
 # codegen rule for target.
 clause5_auto_initial/CMakeFiles/item5.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f clause5_auto_initial/CMakeFiles/item5.dir/build.make clause5_auto_initial/CMakeFiles/item5.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=53,54 "Finished codegen for target item5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=68,69 "Finished codegen for target item5"
 .PHONY : clause5_auto_initial/CMakeFiles/item5.dir/codegen
 
 # clean rule for target.
@@ -1446,7 +1639,7 @@ clause5_auto_initial/CMakeFiles/item5.dir/clean:
 clause8_nullptr_NULL/CMakeFiles/item8.dir/all:
 	$(MAKE) $(MAKESILENT) -f clause8_nullptr_NULL/CMakeFiles/item8.dir/build.make clause8_nullptr_NULL/CMakeFiles/item8.dir/depend
 	$(MAKE) $(MAKESILENT) -f clause8_nullptr_NULL/CMakeFiles/item8.dir/build.make clause8_nullptr_NULL/CMakeFiles/item8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=57,58 "Built target item8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=72,73 "Built target item8"
 .PHONY : clause8_nullptr_NULL/CMakeFiles/item8.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1463,7 +1656,7 @@ item8: clause8_nullptr_NULL/CMakeFiles/item8.dir/rule
 # codegen rule for target.
 clause8_nullptr_NULL/CMakeFiles/item8.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f clause8_nullptr_NULL/CMakeFiles/item8.dir/build.make clause8_nullptr_NULL/CMakeFiles/item8.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=57,58 "Finished codegen for target item8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=72,73 "Finished codegen for target item8"
 .PHONY : clause8_nullptr_NULL/CMakeFiles/item8.dir/codegen
 
 # clean rule for target.
@@ -1478,7 +1671,7 @@ clause8_nullptr_NULL/CMakeFiles/item8.dir/clean:
 clause9_using_typedef/CMakeFiles/item9.dir/all:
 	$(MAKE) $(MAKESILENT) -f clause9_using_typedef/CMakeFiles/item9.dir/build.make clause9_using_typedef/CMakeFiles/item9.dir/depend
 	$(MAKE) $(MAKESILENT) -f clause9_using_typedef/CMakeFiles/item9.dir/build.make clause9_using_typedef/CMakeFiles/item9.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=59,60 "Built target item9"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=74,75 "Built target item9"
 .PHONY : clause9_using_typedef/CMakeFiles/item9.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1495,7 +1688,7 @@ item9: clause9_using_typedef/CMakeFiles/item9.dir/rule
 # codegen rule for target.
 clause9_using_typedef/CMakeFiles/item9.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f clause9_using_typedef/CMakeFiles/item9.dir/build.make clause9_using_typedef/CMakeFiles/item9.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=59,60 "Finished codegen for target item9"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=74,75 "Finished codegen for target item9"
 .PHONY : clause9_using_typedef/CMakeFiles/item9.dir/codegen
 
 # clean rule for target.
@@ -1510,7 +1703,7 @@ clause9_using_typedef/CMakeFiles/item9.dir/clean:
 clause10_classEnum/CMakeFiles/item10.dir/all:
 	$(MAKE) $(MAKESILENT) -f clause10_classEnum/CMakeFiles/item10.dir/build.make clause10_classEnum/CMakeFiles/item10.dir/depend
 	$(MAKE) $(MAKESILENT) -f clause10_classEnum/CMakeFiles/item10.dir/build.make clause10_classEnum/CMakeFiles/item10.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=35,36 "Built target item10"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=37,38 "Built target item10"
 .PHONY : clause10_classEnum/CMakeFiles/item10.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1527,7 +1720,7 @@ item10: clause10_classEnum/CMakeFiles/item10.dir/rule
 # codegen rule for target.
 clause10_classEnum/CMakeFiles/item10.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f clause10_classEnum/CMakeFiles/item10.dir/build.make clause10_classEnum/CMakeFiles/item10.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=35,36 "Finished codegen for target item10"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=37,38 "Finished codegen for target item10"
 .PHONY : clause10_classEnum/CMakeFiles/item10.dir/codegen
 
 # clean rule for target.
@@ -1542,7 +1735,7 @@ clause10_classEnum/CMakeFiles/item10.dir/clean:
 clause11_delete/CMakeFiles/item11.dir/all:
 	$(MAKE) $(MAKESILENT) -f clause11_delete/CMakeFiles/item11.dir/build.make clause11_delete/CMakeFiles/item11.dir/depend
 	$(MAKE) $(MAKESILENT) -f clause11_delete/CMakeFiles/item11.dir/build.make clause11_delete/CMakeFiles/item11.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=37,38 "Built target item11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=39,40 "Built target item11"
 .PHONY : clause11_delete/CMakeFiles/item11.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1559,7 +1752,7 @@ item11: clause11_delete/CMakeFiles/item11.dir/rule
 # codegen rule for target.
 clause11_delete/CMakeFiles/item11.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f clause11_delete/CMakeFiles/item11.dir/build.make clause11_delete/CMakeFiles/item11.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=37,38 "Finished codegen for target item11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=39,40 "Finished codegen for target item11"
 .PHONY : clause11_delete/CMakeFiles/item11.dir/codegen
 
 # clean rule for target.
@@ -1574,7 +1767,7 @@ clause11_delete/CMakeFiles/item11.dir/clean:
 clause12_override/CMakeFiles/item12.dir/all:
 	$(MAKE) $(MAKESILENT) -f clause12_override/CMakeFiles/item12.dir/build.make clause12_override/CMakeFiles/item12.dir/depend
 	$(MAKE) $(MAKESILENT) -f clause12_override/CMakeFiles/item12.dir/build.make clause12_override/CMakeFiles/item12.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=39,40 "Built target item12"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=41,42 "Built target item12"
 .PHONY : clause12_override/CMakeFiles/item12.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1591,7 +1784,7 @@ item12: clause12_override/CMakeFiles/item12.dir/rule
 # codegen rule for target.
 clause12_override/CMakeFiles/item12.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f clause12_override/CMakeFiles/item12.dir/build.make clause12_override/CMakeFiles/item12.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=39,40 "Finished codegen for target item12"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=41,42 "Finished codegen for target item12"
 .PHONY : clause12_override/CMakeFiles/item12.dir/codegen
 
 # clean rule for target.
@@ -1606,7 +1799,7 @@ clause12_override/CMakeFiles/item12.dir/clean:
 clause13_const_iterator/CMakeFiles/item13.dir/all:
 	$(MAKE) $(MAKESILENT) -f clause13_const_iterator/CMakeFiles/item13.dir/build.make clause13_const_iterator/CMakeFiles/item13.dir/depend
 	$(MAKE) $(MAKESILENT) -f clause13_const_iterator/CMakeFiles/item13.dir/build.make clause13_const_iterator/CMakeFiles/item13.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=41,42 "Built target item13"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=43,44 "Built target item13"
 .PHONY : clause13_const_iterator/CMakeFiles/item13.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1623,7 +1816,7 @@ item13: clause13_const_iterator/CMakeFiles/item13.dir/rule
 # codegen rule for target.
 clause13_const_iterator/CMakeFiles/item13.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f clause13_const_iterator/CMakeFiles/item13.dir/build.make clause13_const_iterator/CMakeFiles/item13.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=41,42 "Finished codegen for target item13"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=43,44 "Finished codegen for target item13"
 .PHONY : clause13_const_iterator/CMakeFiles/item13.dir/codegen
 
 # clean rule for target.
@@ -1638,7 +1831,7 @@ clause13_const_iterator/CMakeFiles/item13.dir/clean:
 clause14_noexcept/CMakeFiles/item14.dir/all:
 	$(MAKE) $(MAKESILENT) -f clause14_noexcept/CMakeFiles/item14.dir/build.make clause14_noexcept/CMakeFiles/item14.dir/depend
 	$(MAKE) $(MAKESILENT) -f clause14_noexcept/CMakeFiles/item14.dir/build.make clause14_noexcept/CMakeFiles/item14.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=43,44 "Built target item14"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=45,46 "Built target item14"
 .PHONY : clause14_noexcept/CMakeFiles/item14.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1655,7 +1848,7 @@ item14: clause14_noexcept/CMakeFiles/item14.dir/rule
 # codegen rule for target.
 clause14_noexcept/CMakeFiles/item14.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f clause14_noexcept/CMakeFiles/item14.dir/build.make clause14_noexcept/CMakeFiles/item14.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=43,44 "Finished codegen for target item14"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=45,46 "Finished codegen for target item14"
 .PHONY : clause14_noexcept/CMakeFiles/item14.dir/codegen
 
 # clean rule for target.
@@ -1670,7 +1863,7 @@ clause14_noexcept/CMakeFiles/item14.dir/clean:
 clause15_constexpr/CMakeFiles/item15.dir/all:
 	$(MAKE) $(MAKESILENT) -f clause15_constexpr/CMakeFiles/item15.dir/build.make clause15_constexpr/CMakeFiles/item15.dir/depend
 	$(MAKE) $(MAKESILENT) -f clause15_constexpr/CMakeFiles/item15.dir/build.make clause15_constexpr/CMakeFiles/item15.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=45,46 "Built target item15"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=47,48 "Built target item15"
 .PHONY : clause15_constexpr/CMakeFiles/item15.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1687,7 +1880,7 @@ item15: clause15_constexpr/CMakeFiles/item15.dir/rule
 # codegen rule for target.
 clause15_constexpr/CMakeFiles/item15.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f clause15_constexpr/CMakeFiles/item15.dir/build.make clause15_constexpr/CMakeFiles/item15.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=45,46 "Finished codegen for target item15"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=47,48 "Finished codegen for target item15"
 .PHONY : clause15_constexpr/CMakeFiles/item15.dir/codegen
 
 # clean rule for target.
@@ -1702,7 +1895,7 @@ clause15_constexpr/CMakeFiles/item15.dir/clean:
 clause17_unique_member/CMakeFiles/itme17.dir/all:
 	$(MAKE) $(MAKESILENT) -f clause17_unique_member/CMakeFiles/itme17.dir/build.make clause17_unique_member/CMakeFiles/itme17.dir/depend
 	$(MAKE) $(MAKESILENT) -f clause17_unique_member/CMakeFiles/itme17.dir/build.make clause17_unique_member/CMakeFiles/itme17.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=61,62 "Built target itme17"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=76,77 "Built target itme17"
 .PHONY : clause17_unique_member/CMakeFiles/itme17.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1719,7 +1912,7 @@ itme17: clause17_unique_member/CMakeFiles/itme17.dir/rule
 # codegen rule for target.
 clause17_unique_member/CMakeFiles/itme17.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f clause17_unique_member/CMakeFiles/itme17.dir/build.make clause17_unique_member/CMakeFiles/itme17.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=61,62 "Finished codegen for target itme17"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=76,77 "Finished codegen for target itme17"
 .PHONY : clause17_unique_member/CMakeFiles/itme17.dir/codegen
 
 # clean rule for target.
@@ -1728,13 +1921,173 @@ clause17_unique_member/CMakeFiles/itme17.dir/clean:
 .PHONY : clause17_unique_member/CMakeFiles/itme17.dir/clean
 
 #=============================================================================
+# Target rules for target clause18_unique_ptr/CMakeFiles/item18.dir
+
+# All Build rule for target.
+clause18_unique_ptr/CMakeFiles/item18.dir/all:
+	$(MAKE) $(MAKESILENT) -f clause18_unique_ptr/CMakeFiles/item18.dir/build.make clause18_unique_ptr/CMakeFiles/item18.dir/depend
+	$(MAKE) $(MAKESILENT) -f clause18_unique_ptr/CMakeFiles/item18.dir/build.make clause18_unique_ptr/CMakeFiles/item18.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=49,50 "Built target item18"
+.PHONY : clause18_unique_ptr/CMakeFiles/item18.dir/all
+
+# Build rule for subdir invocation for target.
+clause18_unique_ptr/CMakeFiles/item18.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xertion/Code/Effective-Modern-C-/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clause18_unique_ptr/CMakeFiles/item18.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xertion/Code/Effective-Modern-C-/build/CMakeFiles 0
+.PHONY : clause18_unique_ptr/CMakeFiles/item18.dir/rule
+
+# Convenience name for target.
+item18: clause18_unique_ptr/CMakeFiles/item18.dir/rule
+.PHONY : item18
+
+# codegen rule for target.
+clause18_unique_ptr/CMakeFiles/item18.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f clause18_unique_ptr/CMakeFiles/item18.dir/build.make clause18_unique_ptr/CMakeFiles/item18.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=49,50 "Finished codegen for target item18"
+.PHONY : clause18_unique_ptr/CMakeFiles/item18.dir/codegen
+
+# clean rule for target.
+clause18_unique_ptr/CMakeFiles/item18.dir/clean:
+	$(MAKE) $(MAKESILENT) -f clause18_unique_ptr/CMakeFiles/item18.dir/build.make clause18_unique_ptr/CMakeFiles/item18.dir/clean
+.PHONY : clause18_unique_ptr/CMakeFiles/item18.dir/clean
+
+#=============================================================================
+# Target rules for target clause19_shared_ptr/CMakeFiles/item19.dir
+
+# All Build rule for target.
+clause19_shared_ptr/CMakeFiles/item19.dir/all:
+	$(MAKE) $(MAKESILENT) -f clause19_shared_ptr/CMakeFiles/item19.dir/build.make clause19_shared_ptr/CMakeFiles/item19.dir/depend
+	$(MAKE) $(MAKESILENT) -f clause19_shared_ptr/CMakeFiles/item19.dir/build.make clause19_shared_ptr/CMakeFiles/item19.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=51,52 "Built target item19"
+.PHONY : clause19_shared_ptr/CMakeFiles/item19.dir/all
+
+# Build rule for subdir invocation for target.
+clause19_shared_ptr/CMakeFiles/item19.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xertion/Code/Effective-Modern-C-/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clause19_shared_ptr/CMakeFiles/item19.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xertion/Code/Effective-Modern-C-/build/CMakeFiles 0
+.PHONY : clause19_shared_ptr/CMakeFiles/item19.dir/rule
+
+# Convenience name for target.
+item19: clause19_shared_ptr/CMakeFiles/item19.dir/rule
+.PHONY : item19
+
+# codegen rule for target.
+clause19_shared_ptr/CMakeFiles/item19.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f clause19_shared_ptr/CMakeFiles/item19.dir/build.make clause19_shared_ptr/CMakeFiles/item19.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=51,52 "Finished codegen for target item19"
+.PHONY : clause19_shared_ptr/CMakeFiles/item19.dir/codegen
+
+# clean rule for target.
+clause19_shared_ptr/CMakeFiles/item19.dir/clean:
+	$(MAKE) $(MAKESILENT) -f clause19_shared_ptr/CMakeFiles/item19.dir/build.make clause19_shared_ptr/CMakeFiles/item19.dir/clean
+.PHONY : clause19_shared_ptr/CMakeFiles/item19.dir/clean
+
+#=============================================================================
+# Target rules for target clause20_weak_ptr/CMakeFiles/item20.dir
+
+# All Build rule for target.
+clause20_weak_ptr/CMakeFiles/item20.dir/all:
+	$(MAKE) $(MAKESILENT) -f clause20_weak_ptr/CMakeFiles/item20.dir/build.make clause20_weak_ptr/CMakeFiles/item20.dir/depend
+	$(MAKE) $(MAKESILENT) -f clause20_weak_ptr/CMakeFiles/item20.dir/build.make clause20_weak_ptr/CMakeFiles/item20.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=55,56 "Built target item20"
+.PHONY : clause20_weak_ptr/CMakeFiles/item20.dir/all
+
+# Build rule for subdir invocation for target.
+clause20_weak_ptr/CMakeFiles/item20.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xertion/Code/Effective-Modern-C-/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clause20_weak_ptr/CMakeFiles/item20.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xertion/Code/Effective-Modern-C-/build/CMakeFiles 0
+.PHONY : clause20_weak_ptr/CMakeFiles/item20.dir/rule
+
+# Convenience name for target.
+item20: clause20_weak_ptr/CMakeFiles/item20.dir/rule
+.PHONY : item20
+
+# codegen rule for target.
+clause20_weak_ptr/CMakeFiles/item20.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f clause20_weak_ptr/CMakeFiles/item20.dir/build.make clause20_weak_ptr/CMakeFiles/item20.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=55,56 "Finished codegen for target item20"
+.PHONY : clause20_weak_ptr/CMakeFiles/item20.dir/codegen
+
+# clean rule for target.
+clause20_weak_ptr/CMakeFiles/item20.dir/clean:
+	$(MAKE) $(MAKESILENT) -f clause20_weak_ptr/CMakeFiles/item20.dir/build.make clause20_weak_ptr/CMakeFiles/item20.dir/clean
+.PHONY : clause20_weak_ptr/CMakeFiles/item20.dir/clean
+
+#=============================================================================
+# Target rules for target clause21_use_makeShared/CMakeFiles/item21.dir
+
+# All Build rule for target.
+clause21_use_makeShared/CMakeFiles/item21.dir/all:
+	$(MAKE) $(MAKESILENT) -f clause21_use_makeShared/CMakeFiles/item21.dir/build.make clause21_use_makeShared/CMakeFiles/item21.dir/depend
+	$(MAKE) $(MAKESILENT) -f clause21_use_makeShared/CMakeFiles/item21.dir/build.make clause21_use_makeShared/CMakeFiles/item21.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=57,58 "Built target item21"
+.PHONY : clause21_use_makeShared/CMakeFiles/item21.dir/all
+
+# Build rule for subdir invocation for target.
+clause21_use_makeShared/CMakeFiles/item21.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xertion/Code/Effective-Modern-C-/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clause21_use_makeShared/CMakeFiles/item21.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xertion/Code/Effective-Modern-C-/build/CMakeFiles 0
+.PHONY : clause21_use_makeShared/CMakeFiles/item21.dir/rule
+
+# Convenience name for target.
+item21: clause21_use_makeShared/CMakeFiles/item21.dir/rule
+.PHONY : item21
+
+# codegen rule for target.
+clause21_use_makeShared/CMakeFiles/item21.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f clause21_use_makeShared/CMakeFiles/item21.dir/build.make clause21_use_makeShared/CMakeFiles/item21.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=57,58 "Finished codegen for target item21"
+.PHONY : clause21_use_makeShared/CMakeFiles/item21.dir/codegen
+
+# clean rule for target.
+clause21_use_makeShared/CMakeFiles/item21.dir/clean:
+	$(MAKE) $(MAKESILENT) -f clause21_use_makeShared/CMakeFiles/item21.dir/build.make clause21_use_makeShared/CMakeFiles/item21.dir/clean
+.PHONY : clause21_use_makeShared/CMakeFiles/item21.dir/clean
+
+#=============================================================================
+# Target rules for target clause22_Pimpl/CMakeFiles/item22.dir
+
+# All Build rule for target.
+clause22_Pimpl/CMakeFiles/item22.dir/all:
+	$(MAKE) $(MAKESILENT) -f clause22_Pimpl/CMakeFiles/item22.dir/build.make clause22_Pimpl/CMakeFiles/item22.dir/depend
+	$(MAKE) $(MAKESILENT) -f clause22_Pimpl/CMakeFiles/item22.dir/build.make clause22_Pimpl/CMakeFiles/item22.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=59,60,61 "Built target item22"
+.PHONY : clause22_Pimpl/CMakeFiles/item22.dir/all
+
+# Build rule for subdir invocation for target.
+clause22_Pimpl/CMakeFiles/item22.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xertion/Code/Effective-Modern-C-/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clause22_Pimpl/CMakeFiles/item22.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xertion/Code/Effective-Modern-C-/build/CMakeFiles 0
+.PHONY : clause22_Pimpl/CMakeFiles/item22.dir/rule
+
+# Convenience name for target.
+item22: clause22_Pimpl/CMakeFiles/item22.dir/rule
+.PHONY : item22
+
+# codegen rule for target.
+clause22_Pimpl/CMakeFiles/item22.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f clause22_Pimpl/CMakeFiles/item22.dir/build.make clause22_Pimpl/CMakeFiles/item22.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=59,60,61 "Finished codegen for target item22"
+.PHONY : clause22_Pimpl/CMakeFiles/item22.dir/codegen
+
+# clean rule for target.
+clause22_Pimpl/CMakeFiles/item22.dir/clean:
+	$(MAKE) $(MAKESILENT) -f clause22_Pimpl/CMakeFiles/item22.dir/build.make clause22_Pimpl/CMakeFiles/item22.dir/clean
+.PHONY : clause22_Pimpl/CMakeFiles/item22.dir/clean
+
+#=============================================================================
 # Target rules for target clause23_move_forward/CMakeFiles/item23.dir
 
 # All Build rule for target.
 clause23_move_forward/CMakeFiles/item23.dir/all:
 	$(MAKE) $(MAKESILENT) -f clause23_move_forward/CMakeFiles/item23.dir/build.make clause23_move_forward/CMakeFiles/item23.dir/depend
 	$(MAKE) $(MAKESILENT) -f clause23_move_forward/CMakeFiles/item23.dir/build.make clause23_move_forward/CMakeFiles/item23.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=49,50 "Built target item23"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=62,63 "Built target item23"
 .PHONY : clause23_move_forward/CMakeFiles/item23.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1751,13 +2104,45 @@ item23: clause23_move_forward/CMakeFiles/item23.dir/rule
 # codegen rule for target.
 clause23_move_forward/CMakeFiles/item23.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f clause23_move_forward/CMakeFiles/item23.dir/build.make clause23_move_forward/CMakeFiles/item23.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=49,50 "Finished codegen for target item23"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=62,63 "Finished codegen for target item23"
 .PHONY : clause23_move_forward/CMakeFiles/item23.dir/codegen
 
 # clean rule for target.
 clause23_move_forward/CMakeFiles/item23.dir/clean:
 	$(MAKE) $(MAKESILENT) -f clause23_move_forward/CMakeFiles/item23.dir/build.make clause23_move_forward/CMakeFiles/item23.dir/clean
 .PHONY : clause23_move_forward/CMakeFiles/item23.dir/clean
+
+#=============================================================================
+# Target rules for target clause24_generalRef_rvalRef/CMakeFiles/item24.dir
+
+# All Build rule for target.
+clause24_generalRef_rvalRef/CMakeFiles/item24.dir/all:
+	$(MAKE) $(MAKESILENT) -f clause24_generalRef_rvalRef/CMakeFiles/item24.dir/build.make clause24_generalRef_rvalRef/CMakeFiles/item24.dir/depend
+	$(MAKE) $(MAKESILENT) -f clause24_generalRef_rvalRef/CMakeFiles/item24.dir/build.make clause24_generalRef_rvalRef/CMakeFiles/item24.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=64,65 "Built target item24"
+.PHONY : clause24_generalRef_rvalRef/CMakeFiles/item24.dir/all
+
+# Build rule for subdir invocation for target.
+clause24_generalRef_rvalRef/CMakeFiles/item24.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xertion/Code/Effective-Modern-C-/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clause24_generalRef_rvalRef/CMakeFiles/item24.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xertion/Code/Effective-Modern-C-/build/CMakeFiles 0
+.PHONY : clause24_generalRef_rvalRef/CMakeFiles/item24.dir/rule
+
+# Convenience name for target.
+item24: clause24_generalRef_rvalRef/CMakeFiles/item24.dir/rule
+.PHONY : item24
+
+# codegen rule for target.
+clause24_generalRef_rvalRef/CMakeFiles/item24.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f clause24_generalRef_rvalRef/CMakeFiles/item24.dir/build.make clause24_generalRef_rvalRef/CMakeFiles/item24.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xertion/Code/Effective-Modern-C-/build/CMakeFiles --progress-num=64,65 "Finished codegen for target item24"
+.PHONY : clause24_generalRef_rvalRef/CMakeFiles/item24.dir/codegen
+
+# clean rule for target.
+clause24_generalRef_rvalRef/CMakeFiles/item24.dir/clean:
+	$(MAKE) $(MAKESILENT) -f clause24_generalRef_rvalRef/CMakeFiles/item24.dir/build.make clause24_generalRef_rvalRef/CMakeFiles/item24.dir/clean
+.PHONY : clause24_generalRef_rvalRef/CMakeFiles/item24.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

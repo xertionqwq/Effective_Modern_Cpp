@@ -17,6 +17,7 @@
 		"/home/xertion/Code/Effective-Modern-C-/build/base13_heap_memory/cmake_install.cmake",
 		"/home/xertion/Code/Effective-Modern-C-/build/base14_allocateMemory/cmake_install.cmake",
 		"/home/xertion/Code/Effective-Modern-C-/build/base15_rewrite_newAdelete/cmake_install.cmake",
+		"/home/xertion/Code/Effective-Modern-C-/build/base16_Array_new_delete/cmake_install.cmake",
 		"/home/xertion/Code/Effective-Modern-C-/build/clause1_template_derivation/cmake_install.cmake",
 		"/home/xertion/Code/Effective-Modern-C-/build/clause2_auto_derivation/cmake_install.cmake",
 		"/home/xertion/Code/Effective-Modern-C-/build/clause3_decltype/cmake_install.cmake",
@@ -31,7 +32,13 @@
 		"/home/xertion/Code/Effective-Modern-C-/build/clause14_noexcept/cmake_install.cmake",
 		"/home/xertion/Code/Effective-Modern-C-/build/clause15_constexpr/cmake_install.cmake",
 		"/home/xertion/Code/Effective-Modern-C-/build/clause17_unique_member/cmake_install.cmake",
-		"/home/xertion/Code/Effective-Modern-C-/build/clause23_move_forward/cmake_install.cmake"
+		"/home/xertion/Code/Effective-Modern-C-/build/clause18_unique_ptr/cmake_install.cmake",
+		"/home/xertion/Code/Effective-Modern-C-/build/clause19_shared_ptr/cmake_install.cmake",
+		"/home/xertion/Code/Effective-Modern-C-/build/clause20_weak_ptr/cmake_install.cmake",
+		"/home/xertion/Code/Effective-Modern-C-/build/clause21_use_makeShared/cmake_install.cmake",
+		"/home/xertion/Code/Effective-Modern-C-/build/clause22_Pimpl/cmake_install.cmake",
+		"/home/xertion/Code/Effective-Modern-C-/build/clause23_move_forward/cmake_install.cmake",
+		"/home/xertion/Code/Effective-Modern-C-/build/clause24_generalRef_rvalRef/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

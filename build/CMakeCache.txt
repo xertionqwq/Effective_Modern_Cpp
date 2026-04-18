@@ -311,6 +311,33 @@ base15_rewrite_newAdelete_IS_TOP_LEVEL:STATIC=OFF
 base15_rewrite_newAdelete_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/base15_rewrite_newAdelete
 
 //Value Computed by CMake
+base16_Array__BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/base16_Array_new_delete
+
+//Value Computed by CMake
+base16_Array__IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+base16_Array__SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/base16_Array_new_delete
+
+//Value Computed by CMake
+base16_Array_new_delete_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/base16_Array_new_delete
+
+//Value Computed by CMake
+base16_Array_new_delete_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+base16_Array_new_delete_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/base16_Array_new_delete
+
+//Value Computed by CMake
+base16_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/base16_Array_new_delete
+
+//Value Computed by CMake
+base16_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+base16_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/base16_Array_new_delete
+
+//Value Computed by CMake
 base2_rval_quote_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/base2_rval_quote
 
 //Value Computed by CMake
@@ -381,6 +408,15 @@ base9_CRTP_ExpressionTemplate_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 base9_CRTP_ExpressionTemplate_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/base9_CRPT_ExpressionTemplate
+
+//Value Computed by CMake
+base_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/base16_Array_new_delete
+
+//Value Computed by CMake
+base_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+base_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/base16_Array_new_delete
 
 //Value Computed by CMake
 clasuse23_move_forward_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/clause23_move_forward
@@ -455,6 +491,24 @@ clause17_unique_member_IS_TOP_LEVEL:STATIC=OFF
 clause17_unique_member_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/clause17_unique_member
 
 //Value Computed by CMake
+clause18_unique_ptr_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/clause18_unique_ptr
+
+//Value Computed by CMake
+clause18_unique_ptr_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+clause18_unique_ptr_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/clause18_unique_ptr
+
+//Value Computed by CMake
+clause19_shared_ptr_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/clause19_shared_ptr
+
+//Value Computed by CMake
+clause19_shared_ptr_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+clause19_shared_ptr_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/clause19_shared_ptr
+
+//Value Computed by CMake
 clause1_template_derivation_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/clause1_template_derivation
 
 //Value Computed by CMake
@@ -462,6 +516,87 @@ clause1_template_derivation_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 clause1_template_derivation_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/clause1_template_derivation
+
+//Value Computed by CMake
+clause20_weak_ptr_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/clause20_weak_ptr
+
+//Value Computed by CMake
+clause20_weak_ptr_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+clause20_weak_ptr_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/clause20_weak_ptr
+
+//Value Computed by CMake
+clause21_use_makeShared_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/clause21_use_makeShared
+
+//Value Computed by CMake
+clause21_use_makeShared_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+clause21_use_makeShared_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/clause21_use_makeShared
+
+//Value Computed by CMake
+clause22_Pimpl_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/clause22_Pimpl
+
+//Value Computed by CMake
+clause22_Pimpl_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+clause22_Pimpl_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/clause22_Pimpl
+
+//Value Computed by CMake
+clause24_generalRef__BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/clause24_generalRef_rvalRef
+
+//Value Computed by CMake
+clause24_generalRef__IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+clause24_generalRef__SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/clause24_generalRef_rvalRef
+
+//Value Computed by CMake
+clause24_generalRef_ravl_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/clause24_generalRef_rvalRef
+
+//Value Computed by CMake
+clause24_generalRef_ravl_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+clause24_generalRef_ravl_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/clause24_generalRef_rvalRef
+
+//Value Computed by CMake
+clause24_generalRef_rvalRe_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/clause24_generalRef_rvalRef
+
+//Value Computed by CMake
+clause24_generalRef_rvalRe_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+clause24_generalRef_rvalRe_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/clause24_generalRef_rvalRef
+
+//Value Computed by CMake
+clause24_generalRef_rvalRef_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/clause24_generalRef_rvalRef
+
+//Value Computed by CMake
+clause24_generalRef_rvalRef_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+clause24_generalRef_rvalRef_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/clause24_generalRef_rvalRef
+
+//Value Computed by CMake
+clause24_general_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/clause24_generalRef_rvalRef
+
+//Value Computed by CMake
+clause24_general_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+clause24_general_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/clause24_generalRef_rvalRef
+
+//Value Computed by CMake
+clause24_ger_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/clause24_generalRef_rvalRef
+
+//Value Computed by CMake
+clause24_ger_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+clause24_ger_SOURCE_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/clause24_generalRef_rvalRef
 
 //Value Computed by CMake
 clause2_auto_derivation_BINARY_DIR:STATIC=/home/xertion/Code/Effective-Modern-C-/build/clause2_auto_derivation
@@ -624,7 +759,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=31
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=38
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

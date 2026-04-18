@@ -96,6 +96,12 @@
   "output": "base15_rewrite_newAdelete/CMakeFiles/base15.dir/base15.cpp.o"
 },
 {
+  "directory": "/home/xertion/Code/Effective-Modern-C-/build/base16_Array_new_delete",
+  "command": "/usr/bin/g++   -fno-elide-constructors -g -std=c++14 -fno-elide-constructors -o CMakeFiles/base16.dir/base16.cpp.o -c /home/xertion/Code/Effective-Modern-C-/base16_Array_new_delete/base16.cpp",
+  "file": "/home/xertion/Code/Effective-Modern-C-/base16_Array_new_delete/base16.cpp",
+  "output": "base16_Array_new_delete/CMakeFiles/base16.dir/base16.cpp.o"
+},
+{
   "directory": "/home/xertion/Code/Effective-Modern-C-/build/clause1_template_derivation",
   "command": "/usr/bin/g++   -fno-elide-constructors -g -std=c++14 -fno-elide-constructors -o CMakeFiles/item1.dir/item1.cpp.o -c /home/xertion/Code/Effective-Modern-C-/clause1_template_derivation/item1.cpp",
   "file": "/home/xertion/Code/Effective-Modern-C-/clause1_template_derivation/item1.cpp",
@@ -180,9 +186,51 @@
   "output": "clause17_unique_member/CMakeFiles/itme17.dir/item17.cpp.o"
 },
 {
+  "directory": "/home/xertion/Code/Effective-Modern-C-/build/clause18_unique_ptr",
+  "command": "/usr/bin/g++   -fno-elide-constructors -g -std=c++14 -fno-elide-constructors -o CMakeFiles/item18.dir/item18.cpp.o -c /home/xertion/Code/Effective-Modern-C-/clause18_unique_ptr/item18.cpp",
+  "file": "/home/xertion/Code/Effective-Modern-C-/clause18_unique_ptr/item18.cpp",
+  "output": "clause18_unique_ptr/CMakeFiles/item18.dir/item18.cpp.o"
+},
+{
+  "directory": "/home/xertion/Code/Effective-Modern-C-/build/clause19_shared_ptr",
+  "command": "/usr/bin/g++   -fno-elide-constructors -g -std=c++14 -fno-elide-constructors -o CMakeFiles/item19.dir/item19.cpp.o -c /home/xertion/Code/Effective-Modern-C-/clause19_shared_ptr/item19.cpp",
+  "file": "/home/xertion/Code/Effective-Modern-C-/clause19_shared_ptr/item19.cpp",
+  "output": "clause19_shared_ptr/CMakeFiles/item19.dir/item19.cpp.o"
+},
+{
+  "directory": "/home/xertion/Code/Effective-Modern-C-/build/clause20_weak_ptr",
+  "command": "/usr/bin/g++   -fno-elide-constructors -g -std=c++14 -fno-elide-constructors -o CMakeFiles/item20.dir/item20.cpp.o -c /home/xertion/Code/Effective-Modern-C-/clause20_weak_ptr/item20.cpp",
+  "file": "/home/xertion/Code/Effective-Modern-C-/clause20_weak_ptr/item20.cpp",
+  "output": "clause20_weak_ptr/CMakeFiles/item20.dir/item20.cpp.o"
+},
+{
+  "directory": "/home/xertion/Code/Effective-Modern-C-/build/clause21_use_makeShared",
+  "command": "/usr/bin/g++   -fno-elide-constructors -g -std=c++14 -fno-elide-constructors -o CMakeFiles/item21.dir/item21.cpp.o -c /home/xertion/Code/Effective-Modern-C-/clause21_use_makeShared/item21.cpp",
+  "file": "/home/xertion/Code/Effective-Modern-C-/clause21_use_makeShared/item21.cpp",
+  "output": "clause21_use_makeShared/CMakeFiles/item21.dir/item21.cpp.o"
+},
+{
+  "directory": "/home/xertion/Code/Effective-Modern-C-/build/clause22_Pimpl",
+  "command": "/usr/bin/g++   -fno-elide-constructors -g -std=c++14 -fno-elide-constructors -o CMakeFiles/item22.dir/item22.cpp.o -c /home/xertion/Code/Effective-Modern-C-/clause22_Pimpl/item22.cpp",
+  "file": "/home/xertion/Code/Effective-Modern-C-/clause22_Pimpl/item22.cpp",
+  "output": "clause22_Pimpl/CMakeFiles/item22.dir/item22.cpp.o"
+},
+{
+  "directory": "/home/xertion/Code/Effective-Modern-C-/build/clause22_Pimpl",
+  "command": "/usr/bin/g++   -fno-elide-constructors -g -std=c++14 -fno-elide-constructors -o CMakeFiles/item22.dir/widget.cpp.o -c /home/xertion/Code/Effective-Modern-C-/clause22_Pimpl/widget.cpp",
+  "file": "/home/xertion/Code/Effective-Modern-C-/clause22_Pimpl/widget.cpp",
+  "output": "clause22_Pimpl/CMakeFiles/item22.dir/widget.cpp.o"
+},
+{
   "directory": "/home/xertion/Code/Effective-Modern-C-/build/clause23_move_forward",
   "command": "/usr/bin/g++   -fno-elide-constructors -g -std=c++14 -fno-elide-constructors -o CMakeFiles/item23.dir/item23.cpp.o -c /home/xertion/Code/Effective-Modern-C-/clause23_move_forward/item23.cpp",
   "file": "/home/xertion/Code/Effective-Modern-C-/clause23_move_forward/item23.cpp",
   "output": "clause23_move_forward/CMakeFiles/item23.dir/item23.cpp.o"
+},
+{
+  "directory": "/home/xertion/Code/Effective-Modern-C-/build/clause24_generalRef_rvalRef",
+  "command": "/usr/bin/g++   -fno-elide-constructors -g -std=c++14 -fno-elide-constructors -o CMakeFiles/item24.dir/item24.cpp.o -c /home/xertion/Code/Effective-Modern-C-/clause24_generalRef_rvalRef/item24.cpp",
+  "file": "/home/xertion/Code/Effective-Modern-C-/clause24_generalRef_rvalRef/item24.cpp",
+  "output": "clause24_generalRef_rvalRef/CMakeFiles/item24.dir/item24.cpp.o"
 }
 ]

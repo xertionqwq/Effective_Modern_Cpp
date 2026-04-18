@@ -325,6 +325,19 @@ base15/fast:
 .PHONY : base15/fast
 
 #=============================================================================
+# Target rules for targets named base16
+
+# Build rule for target.
+base16: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 base16
+.PHONY : base16
+
+# fast build rule for target.
+base16/fast:
+	$(MAKE) $(MAKESILENT) -f base16_Array_new_delete/CMakeFiles/base16.dir/build.make base16_Array_new_delete/CMakeFiles/base16.dir/build
+.PHONY : base16/fast
+
+#=============================================================================
 # Target rules for targets named item1
 
 # Build rule for target.
@@ -507,6 +520,71 @@ itme17/fast:
 .PHONY : itme17/fast
 
 #=============================================================================
+# Target rules for targets named item18
+
+# Build rule for target.
+item18: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item18
+.PHONY : item18
+
+# fast build rule for target.
+item18/fast:
+	$(MAKE) $(MAKESILENT) -f clause18_unique_ptr/CMakeFiles/item18.dir/build.make clause18_unique_ptr/CMakeFiles/item18.dir/build
+.PHONY : item18/fast
+
+#=============================================================================
+# Target rules for targets named item19
+
+# Build rule for target.
+item19: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item19
+.PHONY : item19
+
+# fast build rule for target.
+item19/fast:
+	$(MAKE) $(MAKESILENT) -f clause19_shared_ptr/CMakeFiles/item19.dir/build.make clause19_shared_ptr/CMakeFiles/item19.dir/build
+.PHONY : item19/fast
+
+#=============================================================================
+# Target rules for targets named item20
+
+# Build rule for target.
+item20: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item20
+.PHONY : item20
+
+# fast build rule for target.
+item20/fast:
+	$(MAKE) $(MAKESILENT) -f clause20_weak_ptr/CMakeFiles/item20.dir/build.make clause20_weak_ptr/CMakeFiles/item20.dir/build
+.PHONY : item20/fast
+
+#=============================================================================
+# Target rules for targets named item21
+
+# Build rule for target.
+item21: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item21
+.PHONY : item21
+
+# fast build rule for target.
+item21/fast:
+	$(MAKE) $(MAKESILENT) -f clause21_use_makeShared/CMakeFiles/item21.dir/build.make clause21_use_makeShared/CMakeFiles/item21.dir/build
+.PHONY : item21/fast
+
+#=============================================================================
+# Target rules for targets named item22
+
+# Build rule for target.
+item22: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item22
+.PHONY : item22
+
+# fast build rule for target.
+item22/fast:
+	$(MAKE) $(MAKESILENT) -f clause22_Pimpl/CMakeFiles/item22.dir/build.make clause22_Pimpl/CMakeFiles/item22.dir/build
+.PHONY : item22/fast
+
+#=============================================================================
 # Target rules for targets named item23
 
 # Build rule for target.
@@ -518,6 +596,19 @@ item23: cmake_check_build_system
 item23/fast:
 	$(MAKE) $(MAKESILENT) -f clause23_move_forward/CMakeFiles/item23.dir/build.make clause23_move_forward/CMakeFiles/item23.dir/build
 .PHONY : item23/fast
+
+#=============================================================================
+# Target rules for targets named item24
+
+# Build rule for target.
+item24: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item24
+.PHONY : item24
+
+# fast build rule for target.
+item24/fast:
+	$(MAKE) $(MAKESILENT) -f clause24_generalRef_rvalRef/CMakeFiles/item24.dir/build.make clause24_generalRef_rvalRef/CMakeFiles/item24.dir/build
+.PHONY : item24/fast
 
 # Help Target
 help:
@@ -535,6 +626,7 @@ help:
 	@echo "... base13"
 	@echo "... base14"
 	@echo "... base15"
+	@echo "... base16"
 	@echo "... base2"
 	@echo "... base3"
 	@echo "... base4"
@@ -550,8 +642,14 @@ help:
 	@echo "... item13"
 	@echo "... item14"
 	@echo "... item15"
+	@echo "... item18"
+	@echo "... item19"
 	@echo "... item2"
+	@echo "... item20"
+	@echo "... item21"
+	@echo "... item22"
 	@echo "... item23"
+	@echo "... item24"
 	@echo "... item3"
 	@echo "... item5"
 	@echo "... item7"
