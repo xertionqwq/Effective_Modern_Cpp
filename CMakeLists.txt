@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.15)
 set(CMAKE_CXX_STANDARD 14) #标准一定要为14才能关闭RVO
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
-set(CMAKE_CXX_FLAGS -fno-elide-constructors)
+# set(CMAKE_CXX_FLAGS -fno-elide-constructors)
 
 # 关闭返回值优化（兼容 GCC/Clang/MSVC，移除冗余配置）
 if (CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
@@ -29,6 +29,7 @@ add_subdirectory(base13_heap_memory)
 add_subdirectory(base14_allocateMemory)
 add_subdirectory(base15_rewrite_newAdelete)
 add_subdirectory(base16_Array_new_delete)
+add_subdirectory(base17_URVO_NRVO)
 add_subdirectory(clause1_template_derivation)
 add_subdirectory(clause2_auto_derivation)
 add_subdirectory(clause3_decltype)

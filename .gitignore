@@ -4,4 +4,4 @@ id_rsa
 id_rsa.pub
 .ssh/
 .vscode/
-/build/
+build
